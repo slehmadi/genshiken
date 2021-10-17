@@ -3,9 +3,13 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("H")
-define b = Character("B")
-define v = Character("V")
+define h = Character("Hazu-chan")
+define b = Character("Callista")
+define v = Character("Kazuo")
+define w = Character("Darren")
+define b = Character("Bisma")
+define c = Character("Lucky")
+define i = Character("Interviewer")
 
 
 # The game starts here.
