@@ -10,12 +10,10 @@ define w = Character("Darren")
 define b = Character("Bisma")
 define c = Character("Lucky")
 define i = Character("Interviewer")
-
+default Skor = 0
 
 # The game starts here.
 label start:
-    default Skor = 0
-
     call variables
 
     scene 
@@ -26,6 +24,7 @@ label start:
     scene 2-4
     call scene_2
     call scene_3
+    call scene_4
 
     scene 5
     menu:
