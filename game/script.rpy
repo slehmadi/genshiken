@@ -16,7 +16,7 @@ default Skor = 0
 label start:
     call variables
 
-    scene 
+    scene 1
     call scene_1
 
     scene Opening
@@ -27,11 +27,7 @@ label start:
     call scene_4
 
     scene 5
-    menu:
-        "nerima flirt":
-            $ Skor += 10
-        "nolak flirt":
-            $ Skor -= 10
+    call scene_5
 
     scene 6
     menu:
