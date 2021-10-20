@@ -30,11 +30,7 @@ label start:
     call scene_5
 
     scene 6
-    menu:
-        "suka":
-            $ Skor += 10
-        "ga":
-            $ Skor -= 10
+    call scene_6
 
     scene 7
     menu:
