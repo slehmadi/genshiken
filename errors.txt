@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 22: expected 'label_name' not found.
-    call "scene_1"
-        ^
+File "game/scenes/scene_2.rpy", line 16: expected 'simple_expression' not found.
+    xzoom = -1
+          ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Wed Oct 20 10:49:12 2021
+Thu Oct 21 00:25:44 2021

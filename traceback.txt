@@ -1,26 +1,57 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 18, in script call
-    call variables
-  File "game/script.rpy", line 18, in script call
-    call variables
-ScriptError: could not find label 'variables'.
+Compiling ATL code at game/scenes/scene_2.rpy:16
+  File "game/script.rpy", line 59, in script call
+    call scene_2
+  File "game/scenes/scene_2.rpy", line 19, in script
+    h "Okay. I can hear them too."
+NameError: name 'flip' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 18, in script call
-    call variables
-  File "renpy/ast.py", line 1485, in execute
-    rv = renpy.game.context().call(label, return_site=self.next.name)
-  File "game/script.rpy", line 18, in script call
-    call variables
-  File "renpy/script.py", line 918, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'variables'.
+  File "game/script.rpy", line 59, in script call
+    call scene_2
+  File "game/scenes/scene_2.rpy", line 19, in script
+    h "Okay. I can hear them too."
+  File "renpy/ast.py", line 716, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "renpy/exports.py", line 1417, in say
+    who(what, *args, **kwargs)
+  File "renpy/character.py", line 1223, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "renpy/character.py", line 875, in do_display
+    **display_args)
+  File "renpy/character.py", line 621, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 3694, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 558, in visit_all
+    for d in self.visit():
+  File "renpy/atl.py", line 603, in visit
+    block = self.compile()
+  File "renpy/atl.py", line 510, in compile
+    block = self.atl.compile(self.context)
+  File "renpy/atl.py", line 705, in compile
+    statements = [ i.compile(ctx) for i in self.statements ]
+  File "renpy/atl.py", line 918, in compile
+    child = ctx.eval(expr)
+  File "renpy/atl.py", line 260, in eval
+    return eval(expr, renpy.store.__dict__, self.context) # @UndefinedVariable
+  File "<string>", line 1, in <module>
+NameError: name 'flip' is not defined
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 genshiken 1.0
-Mon Oct 18 15:51:27 2021
+Thu Oct 21 00:23:54 2021

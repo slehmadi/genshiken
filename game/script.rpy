@@ -12,16 +12,61 @@ define c = Character("Lucky")
 define i = Character("Interviewer")
 default Skor = 0
 
+# declare chara sprites
+# sebenernya asal file gak usah asal var-nya huruf kecil semua
+
+image dummyJ smile:
+    "Dummies/characters/dummyJ/dummyJ smile.png"
+    zoom 0.67
+image dummyJ wonder:
+    "Dummies/characters/dummyJ/dummyJ wonder.png"
+    zoom 0.67
+image dummyJ sad:
+    "Dummies/characters/dummyJ/dummyJ sad.png"
+    zoom 0.67
+image dummyJ upset:
+    "Dummies/characters/dummyJ/dummyJ upset.png"
+    zoom 0.67
+
+image dummyH neutral:
+    "Dummies/characters/dummyH/dummyH neutral.png"
+image dummyH happy:
+    "Dummies/characters/dummyH/dummyH happy.png"
+image dummyH frightened:
+    "Dummies/characters/dummyH/dummyH frightened.png"
+image dummyH terrified:
+    "Dummies/characters/dummyH/dummyH terrified.png"
+image dummyH mad:
+    "Dummies/characters/dummyH/dummyH mad.png"
+image dummyH sad:
+    "Dummies/characters/dummyH/dummyH sad.png"
+
+image dummyV neutral:
+    "Dummies/characters/dummyV/dummyV neutral.png"
+    zoom 0.65
+image dummyV happy:
+    "Dummies/characters/dummyV/dummyV happy.png"
+    zoom 0.65
+image dummyV surprised:
+    "Dummies/characters/dummyV/dummyV surprised.png"
+    zoom 0.65
+image dummyV angry:
+    "Dummies/characters/dummyV/dummyV angry.png"
+    zoom 0.65
+image dummyV sad:
+    "Dummies/characters/dummyV/dummyV sad.png"
+    zoom 0.65
+
 # The game starts here.
 label start:
     call variables
 
-    scene 1
+    #scene 1
     call scene_1
 
     scene Opening
 
-    scene 2-4
+    #scene 2-4
     call scene_2
     call scene_3
     call scene_4

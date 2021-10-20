@@ -1,22 +1,28 @@
 
 label scene_2:
+    scene black
     "*A year later...*"
     "*Hazu-chan and Kazuo is in a heated game of Apex Legends*"
 
-    #show kazuo intense
+    scene bg personalroom:
+        zoom 0.9
+    pause(1.0)
+    show dummyV neutral #show kazuo intense
+    with dissolve
     v "There’s one team nearby. We should hide here for a while."
 
-    #show kazuo intense at left
-    #with move
-    #show hazu intense at right
-    #with moveIn
+    show dummyV neutral at left #show kazuo intense at left
+    with move #with move
+    show dummyH frightened at right: #show hazu intense at right
+        xzoom -1
+    with dissolve #with moveIn
 
     h "Okay. I can hear them too."
 
-    #show kazuo confused
+    show dummyV surprised #show kazuo confused
     v "What happened? Suddenly there are only four teams left."
 
-    #show hazu surprise
+    show dummyH terrified #show hazu surprise
     h "Woah, I just noticed that too."
 
     v "Wait, are they coming to us?"
@@ -25,16 +31,16 @@ label scene_2:
     #show kazuo panic
     v "They’re coming, they’re coming."
 
-    #show hazu intense
+    show dummyH mad #show hazu intense
     h "I’m using my ult."
 
-    #show kazuo intense
+    show dummyV angry #show kazuo intense
     v "Nice. I’m throwing a grenade."
 
-    #show kazuo focused
+    show dummyV neutral #show kazuo focused
     v "They’re coming close. Let’s fight them here."
 
-    #show hazu focused
+    show dummyH neutral #show hazu focused
     h "Understood."
 
     #play music "gunshot.mp3"
@@ -43,7 +49,7 @@ label scene_2:
 
     v "One down. Be careful! There’s an enemy near you."
 
-    #show hazu sad
+    show dummyH sad #show hazu sad
     h "Oh no I died! He’s so low!"
 
     v "Leave it to me."
@@ -52,23 +58,23 @@ label scene_2:
     #pause(2.0)
     #stop music
 
-    #show hazu happy
+    show dummyH happy #show hazu happy
     h "Nice! You got them! You killed both of them with ease!"
     h "So this is how playing with a Master rank feels like."
     
-    #show kazuo happy
+    show dummyV happy #show kazuo happy
     v "Nah, that’s just a rusty play by me."
 
-    #show kazuo normal
+    show dummyV neutral #show kazuo normal
     v "Hold on, let me res you."
 
     #show hazu happy
     h "Thank youuu."
 
-    #show kazuo  focused
+    #show kazuo focused
     v "There’s only two teams left. Let's go, Hazu. We can win this game."
 
-    #show hazu normal
+    show dummyH neutral #show hazu normal
     h "Great, I will be helping you from behind."
 
     v "Wait, I saw a player. I think he’s playing solo."
@@ -88,17 +94,17 @@ label scene_2:
 
     v "I hit him again! He’s so low."
 
-    #show hazu surprised
+    show dummyH frightened #show hazu surprised
     h "Oh, wait! Aaah, he’s here!"
 
     #play music "gunshot.mp3"
     #pause(2.0)
     #stop music
 
-    #show kazuo happy
+    show dummyV happy #show kazuo happy
     v "You got him, Hazu!"
 
-    #show hazu happy
+    show dummyH happy #show hazu happy
     h "WOOO! I got him!"
     h "We are the Champions!"
 
@@ -133,19 +139,19 @@ label scene_2:
     #show kazuo laugh
     v "Well, we’ll see about that, hahaha."
 
-    #show kazuo normal
+    show dummyV neutral #show kazuo normal
     v "Anyway, what a way to end this stream. Damn, we’ve been streaming for four hours."
     v "I thought we would just play Minecraft for today’s stream. Never thought we would close it like this."
 
-    #show hazu normal
+    show dummyH neutral #show hazu normal
     h "Thankfully the Minecraft server went down halfway through the stream, ahaha, otherwise I won’t experience my first win."
     h "Anyways, I think we should close the stream now. It’s already late."
     h "Gosh, I should pay more attention to my stream duration."
 
-    #show hazu happy
+    show dummyH happy #show hazu happy
     h "And Kazuo, thank you for collabing with me tonight."
 
-    #show kazuo happy
+    show dummyV happy #show kazuo happy
     v "Thank you to you too, Hazu. It’s been a fun stream."
 
     h "Well then. We will stop the stream now. Thank you so much for coming in."
@@ -154,7 +160,7 @@ label scene_2:
 
     v "Thank you for coming to our stream. We appreciate all the support and love."
 
-    #show kazuo confused
+    show dummyV surprised #show kazuo confused
     v "And umm…what else…"
 
     h "I think that’s it? Anyway, have a good night everyone! Sleep well." 
@@ -162,22 +168,24 @@ label scene_2:
 
     v "Bye bye!"
 
-    #scene black
-    #with dissolve
+    scene black
+    with dissolve
     "..."
-    #scene room
-    #with dissolve
+    scene bg bedroom: #scene room
+        zoom 0.9
+    with dissolve
 
-    #show callista normal
+    show dummyJ wonder #show callista normal
     j "Fuaah, that was a fun stream."
 
     #show callista tired
     j "I feel kinda sleepy now."
 
-    #show callista tired at left
-    #with move
-    #show kazuo normal at right
-    #with moveIn
+    show dummyJ wonder at left #show callista tired at left
+    with dissolve
+    show dummyV neutral at right: #show kazuo normal at right
+        xzoom -1
+    with dissolve
 
     v "Thank god it ended. I’m a bit worried there because you said earlier that your college will start tomorrow."
     
@@ -187,10 +195,10 @@ label scene_2:
     j "I know. But you know, kazuo, no college students sleep early these days."
     j "I bet my friends are still awake right now."
 
-    #show kazuo laugh
+    show dummyV happy #show kazuo laugh
     v "Oh, wow. I thought you don’t have any friends in college."
 
-    #show callista angry
+    show dummyJ upset #show callista angry
     j "..."
 
     v "What’s with that silence? I’m just joking."
@@ -211,7 +219,7 @@ label scene_2:
 
     v "It’s just my instinct."
 
-    #show callista confused
+    show dummyJ wonder #show callista confused
     j "Huhh…"
 
     v "In the end, I don’t want to told you everything about what you should do."
@@ -223,18 +231,23 @@ label scene_2:
 
     v "Even if things don’t go well, or if you feel lonely again, you can always play games with me, right?"
 
-    #show callista smile
+    show dummyJ smile #show callista smile
     j "Yeah…, thanks for the words."
 
-    #show kazuo normal
+    show dummyV neutral #show kazuo normal
     v "Okay then, I think I will go now."
     v "Thanks for collab. Sleep well, Callista, and have a good night.\nBye!"
 
     j "Okay, bye!"
 
+    hide dummyV
+    with dissolve
+
+    show dummyJ smile at center
+    with move
     #play music "discord.mp3"
 
-    #show callista thinking
+    show dummyJ wonder #show callista thinking
     j "*Huh…, guess I better check on my friends.*"
 
     return
