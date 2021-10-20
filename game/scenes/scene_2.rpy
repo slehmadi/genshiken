@@ -1,7 +1,7 @@
 
 label scene_2:
-    "A year later..."
-    "Hazu-chan and Kazuo is in a heated game of Apex Legends"
+    "*A year later...*"
+    "*Hazu-chan and Kazuo is in a heated game of Apex Legends*"
 
     #show kazuo intense
     v "There’s one team nearby. We should hide here for a while."

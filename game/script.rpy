@@ -18,12 +18,14 @@ label start:
 
     call variables
 
-    scene 1  
+    scene 
     call scene_1
 
     scene Opening
 
     scene 2-4
+    call scene_2
+    call scene_3
 
     scene 5
     menu:
