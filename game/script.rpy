@@ -33,13 +33,14 @@ label start:
     call scene_6
 
     scene 7
-    menu:
-        "ikut band bareng B":
-            $ Skor += 30
-            call Eight_Nine_A
-        "collab bareng V":
-            $ Skor -= 30
-            call Eight_Nine_B
+    call scene_7
+    #menu:
+     #   "ikut band bareng B":
+       #     $ Skor += 30
+     #       call Eight_Nine_A
+      #  "collab bareng V":
+      #      $ Skor -= 30
+      #      call Eight_Nine_B
 
     scene 10
     menu:
