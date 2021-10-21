@@ -57,6 +57,41 @@ image dummyV sad:
     "Dummies/characters/dummyV/dummyV sad.png"
     zoom 0.65
 
+image dummyB neutral:
+    "Dummies/characters/dummyB/Sprite Male Dark Hair Neu01.png"
+    zoom 0.6
+image dummyB smile:
+    "Dummies/characters/dummyB/Sprite Male Dark Hair Smi02.png"
+    zoom 0.6
+image dummyB confused:
+    "Dummies/characters/dummyB/Sprite Male Dark Hair Con01.png"
+    zoom 0.6
+image dummyB angry:
+    "Dummies/characters/dummyB/Sprite Male Dark Hair Ang01.png"
+    zoom 0.6
+image dummyB sad:
+    "Dummies/characters/dummyB/Sprite Male Dark Hair Sad01.png"
+    zoom 0.6
+image dummyB apologize:
+    "Dummies/characters/dummyB/Sprite Male Dark Hair Apo01.png"
+    zoom 0.6
+
+image dummyC normal:
+    "Dummies/characters/dummyC/taishiro outing normal.png"
+    zoom 0.65
+image dummyC happy:
+    "Dummies/characters/dummyC/taishiro outing happy.png"
+    zoom 0.65
+image dummyC surprised:
+    "Dummies/characters/dummyC/taishiro outing surprised.png"
+    zoom 0.65
+image dummyC angry:
+    "Dummies/characters/dummyC/taishiro outing angry.png"
+    zoom 0.65
+image dummyC sad:
+    "Dummies/characters/dummyC/taishiro outing sad.png"
+    zoom 0.65
+
 # The game starts here.
 label start:
     call variables
@@ -80,12 +115,12 @@ label start:
     scene 7
     call scene_7
     #menu:
-     #   "ikut band bareng B":
-       #     $ Skor += 30
-     #       call Eight_Nine_A
-      #  "collab bareng V":
-      #      $ Skor -= 30
-      #      call Eight_Nine_B
+    #   "ikut band bareng B":
+    #     $ Skor += 30
+    #       call Eight_Nine_A
+    #  "collab bareng V":
+    #      $ Skor -= 30
+    #      call Eight_Nine_B
 
     scene 10
     menu:

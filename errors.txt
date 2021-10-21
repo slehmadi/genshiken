@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scene_2.rpy", line 16: expected 'simple_expression' not found.
-    xzoom = -1
-          ^
+File "game/scenes/scene_3.rpy", line 13: expecting name after dot.
+    self.xpos.(-4)
+              ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Thu Oct 21 00:25:44 2021
+Thu Oct 21 16:13:56 2021

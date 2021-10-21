@@ -1,9 +1,12 @@
 
 label scene_4:
+    scene bg frontschool
     "*Callista went to her university for the first time and watched the opening ceremony.*"
-    pause(2.0)
+    pause(1.0)
     "*It’s now lunch time*"
 
+    scene bg canteen:
+        zoom 0.8
     #show callista normal
     #pause(1.0)
     #hide callista

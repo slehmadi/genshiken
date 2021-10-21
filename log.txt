@@ -1,1188 +1,14 @@
-Thu Oct 21 00:02:30 2021
+Thu Oct 21 16:51:35 2021
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
  
 
-Bootstrap to the start of init.init took 0.19s
+Bootstrap to the start of init.init took 0.17s
 Early init took 0.01s
-Loader init took 0.03s
+Loader init took 0.02s
 Loading error handling took 0.05s
-Loading script took 0.41s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.10s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.17s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.14s
-Prepare screens took 0.19s
-Save pyanalysis. took 0.21s
-Save bytecode. took 0.08s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.18s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 52.82s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.04s
-Loading script took 0.34s
+Loading script took 0.68s
 Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.08s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.13s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.14s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.16s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 83.47s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.52s
-Loading save slot metadata. took 0.06s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.29s
-Loading analysis data took 0.09s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.28s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.11s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.45s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.02s
-Load screen analysis took 0.00s
-Analyze screens took 0.04s
-Save screen analysis took 0.17s
-Prepare screens took 0.15s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 629.96s
-Early init took 0.01s
-Loader init took 0.03s
-Loading error handling took 0.05s
-Loading script took 0.57s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.17s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.25s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.09s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.15s
-Prepare screens took 0.14s
-Save pyanalysis. took 0.16s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 672.68s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.39s
-Loading save slot metadata. took 0.07s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.12s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.14s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.14s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Resetting cache.
-Bootstrap to the start of init.init took 708.19s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.04s
-Loading script took 0.38s
-Loading save slot metadata. took 0.05s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.10s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.14s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.17s
-Prepare screens took 0.18s
-Save pyanalysis. took 0.17s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 717.25s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.44s
-Loading save slot metadata. took 0.06s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.16s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.17s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.14s
-Prepare screens took 0.12s
-Save pyanalysis. took 0.16s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 755.34s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.34s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.12s
-Loading analysis data took 0.10s
-Analyze and compile ATL took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.25s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.54s
-Cleaning stores took 0.00s
-Init translation took 0.16s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.14s
-Prepare screens took 0.17s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 843.30s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.04s
-Loading script took 0.33s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-
-File "game/scenes/scene_2.rpy", line 16: expected 'comma or end of line' not found.
-    flip = True
-         ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.61s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 943.58s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.34s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.12s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.14s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.37s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.14s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.16s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1001.04s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.31s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.11s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.16s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.14s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 16, in script
-    with moveIn #with moveIn
-  File "renpy/ast.py", line 1431, in execute
-    trans = renpy.python.py_eval(self.expr)
-  File "renpy/python.py", line 2266, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "renpy/python.py", line 2259, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/scenes/scene_2.rpy", line 16, in <module>
-    with moveIn #with moveIn
-NameError: name 'moveIn' is not defined
-
-While running game code:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 16, in script
-    with moveIn #with moveIn
-  File "game/scenes/scene_2.rpy", line 16, in <module>
-    with moveIn #with moveIn
-NameError: name 'moveIn' is not defined
-Resetting cache.
-Bootstrap to the start of init.init took 1033.20s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.39s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.09s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.21s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.11s
-Build styles took 0.02s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.14s
-Prepare screens took 0.14s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 16, in script
-    with movein #with moveIn
-  File "renpy/ast.py", line 1431, in execute
-    trans = renpy.python.py_eval(self.expr)
-  File "renpy/python.py", line 2266, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "renpy/python.py", line 2259, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/scenes/scene_2.rpy", line 16, in <module>
-    with movein #with moveIn
-NameError: name 'movein' is not defined
-
-While running game code:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 16, in script
-    with movein #with moveIn
-  File "game/scenes/scene_2.rpy", line 16, in <module>
-    with movein #with moveIn
-NameError: name 'movein' is not defined
-Resetting cache.
-Bootstrap to the start of init.init took 1047.11s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.33s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.11s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.14s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.14s
-Prepare screens took 0.14s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 18, in script
-    h "Okay. I can hear them too."
-  File "renpy/ast.py", line 716, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1417, in say
-    who(what, *args, **kwargs)
-  File "renpy/character.py", line 1223, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "renpy/character.py", line 875, in do_display
-    **display_args)
-  File "renpy/character.py", line 621, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3276, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3793, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "renpy/display/core.py", line 2521, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 492, in renpy.display.render.render_screen
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/image.py", line 501, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "renpy/display/image.py", line 307, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/im.py", line 607, in render
-    return cache.get(self, render=True)
-  File "renpy/display/im.py", line 271, in get
-    surf = image.load()
-  File "renpy/display/im.py", line 688, in load
-    raise e
-IOError: Couldn't find file 'Dummies/characters/dummyH/dummyH terrified.png'.
-
-While loading <'Image' u'Dummies/characters/dummyH/dummyH terrified.png'>:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 18, in script
-    h "Okay. I can hear them too."
-IOError: Couldn't find file 'Dummies/characters/dummyH/dummyH terrified.png'.
-
-Full traceback:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 18, in script
-    h "Okay. I can hear them too."
-  File "renpy/ast.py", line 716, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1417, in say
-    who(what, *args, **kwargs)
-  File "renpy/character.py", line 1223, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "renpy/character.py", line 875, in do_display
-    **display_args)
-  File "renpy/character.py", line 621, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3276, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3793, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "renpy/display/core.py", line 2521, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 492, in renpy.display.render.render_screen
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/image.py", line 501, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "renpy/display/image.py", line 307, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/im.py", line 607, in render
-    return cache.get(self, render=True)
-  File "renpy/display/im.py", line 271, in get
-    surf = image.load()
-  File "renpy/display/im.py", line 688, in load
-    raise e
-IOError: Couldn't find file 'Dummies/characters/dummyH/dummyH terrified.png'.
-
-While loading <'Image' u'Dummies/characters/dummyH/dummyH terrified.png'>:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 18, in script
-    h "Okay. I can hear them too."
-IOError: Couldn't find file 'Dummies/characters/dummyH/dummyH terrified.png'.
-Resetting cache.
-Bootstrap to the start of init.init took 1071.63s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.32s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.11s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.13s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.14s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 18, in script
-    h "Okay. I can hear them too."
-  File "renpy/ast.py", line 716, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1417, in say
-    who(what, *args, **kwargs)
-  File "renpy/character.py", line 1223, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "renpy/character.py", line 875, in do_display
-    **display_args)
-  File "renpy/character.py", line 621, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3276, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3793, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "renpy/display/core.py", line 2521, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 492, in renpy.display.render.render_screen
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/image.py", line 501, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "renpy/display/image.py", line 307, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/im.py", line 607, in render
-    return cache.get(self, render=True)
-  File "renpy/display/im.py", line 271, in get
-    surf = image.load()
-  File "renpy/display/im.py", line 688, in load
-    raise e
-IOError: Couldn't find file 'Dummies/characters/dummyH/dummyH terrified.png'.
-
-While loading <'Image' u'Dummies/characters/dummyH/dummyH terrified.png'>:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 18, in script
-    h "Okay. I can hear them too."
-IOError: Couldn't find file 'Dummies/characters/dummyH/dummyH terrified.png'.
-Resetting cache.
-Bootstrap to the start of init.init took 1075.32s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.11s
-Loading script took 0.26s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.12s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Dump and make backups. took 0.12s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.14s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 18, in script
-    h "Okay. I can hear them too."
-  File "renpy/ast.py", line 716, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1417, in say
-    who(what, *args, **kwargs)
-  File "renpy/character.py", line 1223, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "renpy/character.py", line 875, in do_display
-    **display_args)
-  File "renpy/character.py", line 621, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3276, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3793, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "renpy/display/core.py", line 2521, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 492, in renpy.display.render.render_screen
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/image.py", line 501, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "renpy/display/image.py", line 307, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/im.py", line 607, in render
-    return cache.get(self, render=True)
-  File "renpy/display/im.py", line 271, in get
-    surf = image.load()
-  File "renpy/display/im.py", line 688, in load
-    raise e
-IOError: Couldn't find file 'Dummies/characters/dummyH/dummyH terrified.png'.
-
-While loading <'Image' u'Dummies/characters/dummyH/dummyH terrified.png'>:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 18, in script
-    h "Okay. I can hear them too."
-IOError: Couldn't find file 'Dummies/characters/dummyH/dummyH terrified.png'.
-
-Full traceback:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 18, in script
-    h "Okay. I can hear them too."
-  File "renpy/ast.py", line 716, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1417, in say
-    who(what, *args, **kwargs)
-  File "renpy/character.py", line 1223, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "renpy/character.py", line 875, in do_display
-    **display_args)
-  File "renpy/character.py", line 621, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3276, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3793, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "renpy/display/core.py", line 2521, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 492, in renpy.display.render.render_screen
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/image.py", line 501, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "renpy/display/image.py", line 307, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 715, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/im.py", line 607, in render
-    return cache.get(self, render=True)
-  File "renpy/display/im.py", line 271, in get
-    surf = image.load()
-  File "renpy/display/im.py", line 688, in load
-    raise e
-IOError: Couldn't find file 'Dummies/characters/dummyH/dummyH terrified.png'.
-
-While loading <'Image' u'Dummies/characters/dummyH/dummyH terrified.png'>:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 18, in script
-    h "Okay. I can hear them too."
-IOError: Couldn't find file 'Dummies/characters/dummyH/dummyH terrified.png'.
-Resetting cache.
-Bootstrap to the start of init.init took 1122.95s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.25s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.10s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Dump and make backups. took 0.18s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1151.99s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.30s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.12s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.15s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.16s
-Prepare screens took 0.14s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 16, in script
-    with moveIn #with moveIn
-  File "renpy/ast.py", line 1431, in execute
-    trans = renpy.python.py_eval(self.expr)
-  File "renpy/python.py", line 2266, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "renpy/python.py", line 2259, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/scenes/scene_2.rpy", line 16, in <module>
-    with moveIn #with moveIn
-NameError: name 'moveIn' is not defined
-
-While running game code:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 16, in script
-    with moveIn #with moveIn
-  File "game/scenes/scene_2.rpy", line 16, in <module>
-    with moveIn #with moveIn
-NameError: name 'moveIn' is not defined
-Resetting cache.
-Bootstrap to the start of init.init took 1185.84s
-Early init took 0.00s
-Loader init took 0.03s
-Loading error handling took 0.06s
-Loading script took 0.42s
-Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.14s
@@ -1190,531 +16,10 @@ Loading analysis data took 0.04s
 Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.14s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.43s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.14s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1264.71s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.32s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.13s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.15s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.15s
-Prepare screens took 0.12s
-Save pyanalysis. took 0.16s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 17, in script
-    with moveinright #with moveIn
-  File "renpy/ast.py", line 1438, in execute
-    renpy.exports.with_statement(trans, paired)
-  File "renpy/exports.py", line 1682, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "renpy/display/core.py", line 2718, in do_with
-    clear=clear)
-  File "renpy/display/core.py", line 3276, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3705, in interact_core
-    renpy.display.focus.before_interact(focus_roots)
-  File "renpy/display/focus.py", line 242, in before_interact
-    root.find_focusable(callback, None)
-  File "renpy/display/core.py", line 470, in find_focusable
-    i.find_focusable(callback, focus_name)
-  File "renpy/display/core.py", line 466, in find_focusable
-    for i in self.visit():
-  File "renpy/atl.py", line 603, in visit
-    block = self.compile()
-  File "renpy/atl.py", line 510, in compile
-    block = self.atl.compile(self.context)
-  File "renpy/atl.py", line 705, in compile
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "renpy/atl.py", line 918, in compile
-    child = ctx.eval(expr)
-  File "renpy/atl.py", line 260, in eval
-    return eval(expr, renpy.store.__dict__, self.context) # @UndefinedVariable
-  File "<string>", line 1, in <module>
-NameError: name 'hflip' is not defined
-
-Compiling ATL code at game/scenes/scene_2.rpy:16
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 17, in script
-    with moveinright #with moveIn
-NameError: name 'hflip' is not defined
-Resetting cache.
-Bootstrap to the start of init.init took 1281.74s
-Early init took 0.00s
-Loader init took 0.05s
-Loading error handling took 0.15s
-Loading script took 0.45s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.13s
-Loading analysis data took 0.10s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.14s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.12s
-Build styles took 0.02s
-Load screen analysis took 0.00s
-Analyze screens took 0.05s
-Save screen analysis took 0.17s
-Prepare screens took 0.16s
-Save pyanalysis. took 0.16s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 19, in script
-    h "Okay. I can hear them too."
-  File "renpy/ast.py", line 716, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1417, in say
-    who(what, *args, **kwargs)
-  File "renpy/character.py", line 1223, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "renpy/character.py", line 875, in do_display
-    **display_args)
-  File "renpy/character.py", line 621, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3276, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3694, in interact_core
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "renpy/display/core.py", line 568, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 568, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 568, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 558, in visit_all
-    for d in self.visit():
-  File "renpy/atl.py", line 603, in visit
-    block = self.compile()
-  File "renpy/atl.py", line 510, in compile
-    block = self.atl.compile(self.context)
-  File "renpy/atl.py", line 705, in compile
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "renpy/atl.py", line 918, in compile
-    child = ctx.eval(expr)
-  File "renpy/atl.py", line 260, in eval
-    return eval(expr, renpy.store.__dict__, self.context) # @UndefinedVariable
-  File "<string>", line 1, in <module>
-NameError: name 'flip' is not defined
-
-Compiling ATL code at game/scenes/scene_2.rpy:16
-  File "game/script.rpy", line 59, in script call
-    call scene_2
-  File "game/scenes/scene_2.rpy", line 19, in script
-    h "Okay. I can hear them too."
-NameError: name 'flip' is not defined
-Resetting cache.
-Bootstrap to the start of init.init took 1338.06s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.75s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.09s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
 Dump and make backups. took 0.13s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.32s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.16s
-Prepare screens took 0.38s
-Save pyanalysis. took 0.23s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1353.73s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.48s
-Loading save slot metadata. took 0.09s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.11s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.14s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.46s
-Cleaning stores took 0.00s
-Init translation took 0.10s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.26s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1393.55s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.27s
-Loading save slot metadata. took 0.06s
-Loading persistent took 0.14s
-
-File "game/scenes/scene_2.rpy", line 16: expected 'simple_expression' not found.
-    xzoom = -1
-          ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.90s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1419.74s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.05s
-Loading script took 0.30s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.11s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.14s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.32s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.14s
-Prepare screens took 0.14s
-Save pyanalysis. took 0.15s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1424.58s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.24s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.09s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Dump and make backups. took 0.14s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.34s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.14s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1452.15s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.04s
-Loading script took 0.34s
-Loading save slot metadata. took 0.05s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.11s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.14s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.29s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.14s
-Prepare screens took 0.14s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1479.87s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.06s
-Loading script took 0.60s
-Loading save slot metadata. took 0.06s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.17s
-Loading analysis data took 0.07s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.18s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.65s
-Cleaning stores took 0.00s
-Init translation took 0.19s
-Build styles took 0.02s
-Load screen analysis took 0.00s
-Analyze screens took 0.06s
-Save screen analysis took 0.23s
-Prepare screens took 0.16s
-Save pyanalysis. took 0.17s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1492.40s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.05s
-Loading script took 0.52s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.11s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.16s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.11s
+Initial gc. took 0.04s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
@@ -1725,412 +30,9 @@ Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.15s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1511.12s
-Early init took 0.00s
-Loader init took 0.03s
-Loading error handling took 0.05s
-Loading script took 0.44s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.10s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.16s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.38s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.14s
-Prepare screens took 0.14s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1537.22s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.36s
-Loading save slot metadata. took 0.05s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.11s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.16s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.14s
-Prepare screens took 0.14s
-Save pyanalysis. took 0.16s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1597.95s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.04s
-Loading script took 0.39s
-Loading save slot metadata. took 0.06s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.18s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.33s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.17s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.48s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.02s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.15s
 Prepare screens took 0.16s
-Save pyanalysis. took 0.16s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1602.87s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.26s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.16s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Dump and make backups. took 0.17s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.05s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.15s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1620.04s
-Early init took 0.01s
-Loader init took 0.04s
-Loading error handling took 0.05s
-Loading script took 0.64s
-Loading save slot metadata. took 0.06s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.14s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.23s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.11s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.04s
-Save screen analysis took 0.16s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1631.88s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.27s
-Loading save slot metadata. took 0.05s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.11s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Dump and make backups. took 0.17s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.33s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.14s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1688.23s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.05s
-Loading script took 0.63s
-Loading save slot metadata. took 0.07s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.15s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.17s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.09s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.36s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.15s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1711.43s
-Early init took 0.01s
-Loader init took 0.05s
-Loading error handling took 0.05s
-Loading script took 0.48s
-Loading save slot metadata. took 0.07s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.10s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.14s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.14s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.17s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1760.20s
-Early init took 0.01s
-Loader init took 0.03s
-Loading error handling took 0.05s
-Loading script took 0.62s
-Loading save slot metadata. took 0.06s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.12s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.19s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.11s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.04s
-Save screen analysis took 0.18s
-Prepare screens took 0.35s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
+Save pyanalysis. took 0.18s
+Save bytecode. took 0.06s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.11s
@@ -2146,341 +48,20 @@ Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 1778.74s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.32s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.14s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.17s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.33s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.15s
-Prepare screens took 0.16s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1794.23s
+Bootstrap to the start of init.init took 37.56s
 Early init took 0.00s
 Loader init took 0.02s
 Loading error handling took 0.04s
-Loading script took 0.34s
-Loading save slot metadata. took 0.05s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.12s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.16s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.09s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.37s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.16s
-Prepare screens took 0.28s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.21s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1906.52s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.06s
-Loading script took 0.63s
-Loading save slot metadata. took 0.05s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.15s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.15s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.02s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.14s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2139.47s
-Early init took 0.01s
-Loader init took 0.05s
-Loading error handling took 0.08s
-Loading script took 0.73s
-Loading save slot metadata. took 0.14s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.13s
-Loading analysis data took 0.08s
-Analyze and compile ATL took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.26s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.10s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.47s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.16s
-Prepare screens took 0.12s
-Save pyanalysis. took 0.17s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2431.22s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.05s
-Loading script took 0.59s
+Loading script took 0.33s
 Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.17s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.22s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.10s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.41s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.17s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.16s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.02s
-Load screen analysis took 0.05s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Resetting cache.
-Bootstrap to the start of init.init took 2442.43s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.25s
-Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.10s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Dump and make backups. took 0.13s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.16s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2520.19s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.32s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.11s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.01s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.02s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.14s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.41s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.14s
-Prepare screens took 0.14s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 471.41'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2541.86s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.32s
-Loading save slot metadata. took 0.07s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.09s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
-Dump and make backups. took 0.13s
+Dump and make backups. took 0.18s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.06s
@@ -2492,6 +73,186 @@ Cleaning stores took 0.00s
 Init translation took 0.08s
 Build styles took 0.01s
 Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.14s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 471.41'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 50.26s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.07s
+Loading script took 0.37s
+Loading save slot metadata. took 0.06s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.11s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
+Dump and make backups. took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.31s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.18s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.16s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 471.41'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 59.90s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.30s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.14s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
+Dump and make backups. took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.32s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.14s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.17s
+Save bytecode. took 0.05s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 471.41'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 72.61s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.04s
+Loading script took 0.35s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.13s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
+Dump and make backups. took 0.19s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.31s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.14s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.17s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 471.41'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 122.75s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.28s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.11s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
+Dump and make backups. took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.32s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
 Analyze screens took 0.03s
 Save screen analysis took 0.14s
 Prepare screens took 0.13s
@@ -2510,4 +271,51 @@ Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 471.41'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 148.89s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.05s
+Loading script took 0.34s
+Loading save slot metadata. took 0.09s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.10s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\user\\AppData\\Roaming/RenPy/backups\\genshiken':
+Dump and make backups. took 0.18s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.65s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.03s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.19s
+Prepare screens took 0.27s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce 930M/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 471.41'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1366, 745) drawable=(1366, 745)
 Maximum texture size: 4096x4096
