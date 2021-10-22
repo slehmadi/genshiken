@@ -119,11 +119,7 @@ label start:
     call scene_10
 
     scene 11
-    menu:
-        "nanya ke B":
-            $ Skor += 10
-        "nanya ke V":
-            $ Skor -10
+    call scene_11
 
     scene 12
     menu:
