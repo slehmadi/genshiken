@@ -122,13 +122,7 @@ label start:
     call scene_11
 
     scene 12
-    menu:
-        "ngerjain tugas ukm bareng B":
-            $ Skor += 30
-            call Thirteen_Fourteen_A
-        "videocall bareng V":
-            $ Skor -= 30
-            call Thirteen_Fourteen_B
+    call scene_12
 
     scene 15-16
 
