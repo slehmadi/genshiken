@@ -115,6 +115,8 @@ label start:
     scene 7
     call scene_7
 
+    #scene 8-9 sudah di scene_7
+
     scene 10
     call scene_10
 
@@ -123,6 +125,8 @@ label start:
 
     scene 12
     call scene_12
+
+    #scene 13-14 sudah di scene_12
 
     scene 15-16
 
@@ -147,15 +151,6 @@ label start:
 
 label variables:
     $ Skor = 0
-    return
-
-label Eight_Nine_A:
-    scene 8A
-    scene 9A
-    return
-label Eight_Nine_B:
-    scene 8B
-    scene 9B
     return
 
 label Thirteen_Fourteen_A:

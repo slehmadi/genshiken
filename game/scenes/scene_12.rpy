@@ -81,6 +81,8 @@ label scene_12_choice1:
     j "Assignment is more important to do."
     j "I hope Kazuo doesn’t mind me doing my assignments."
 
+    jump scene_13A
+
     return
 
 label scene_12_choice2:
@@ -89,5 +91,7 @@ label scene_12_choice2:
     j "Guess I will meet with Kazuo."
     j "I don’t want to disappoint Kazuo."
     j "I hope Bisma and Lucky can handle the assignment while I’m gone."
+
+    jump scene_13B
 
     return
