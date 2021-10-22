@@ -114,15 +114,9 @@ label start:
 
     scene 7
     call scene_7
-    #menu:
-    #   "ikut band bareng B":
-    #     $ Skor += 30
-    #       call Eight_Nine_A
-    #  "collab bareng V":
-    #      $ Skor -= 30
-    #      call Eight_Nine_B
 
     scene 10
+    call scene_10
     menu:
         "ngobrol bareng B":
             $ Skor += 10
@@ -159,9 +153,9 @@ label start:
         "ke amusement park bareng V":
             $ Skor -= 30
 
-    if Skor > 49:
+    if Skor > 29:
         jump END1
-    elif Skor < -49:
+    elif Skor < -29:
         jump END2
     else:
         jump END3
