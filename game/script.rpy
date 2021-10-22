@@ -117,11 +117,6 @@ label start:
 
     scene 10
     call scene_10
-    menu:
-        "ngobrol bareng B":
-            $ Skor += 10
-        "ngechat sama V":
-            $ Skor -= 10
 
     scene 11
     menu:

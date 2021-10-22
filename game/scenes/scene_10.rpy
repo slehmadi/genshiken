@@ -114,7 +114,53 @@ label talk_with_bisma:
     "*After that, Callista quickly went home and talk to Kazuo*"
     
     scene bg ruangstream
-    
+
     "*Kazuo seems upset but the frown quickly fade away as both of them talk*"
+
+    return
+
+label run_home:
+    $ Skor -= 10
+
+    j "I’m really sorry, but I’m in a hurry."
+
+    b "Oh okay then, talk to you later."
+
+    scene black
+
+    "*Callista runs home and quickly opens her Discord*"
+
+    scene bg ruangstream
+
+    #show kazuo normal
+
+    v "Oh, hi, Callista. Glad you are on time."
+    v "Just a few minutes ago I was thinking you wouldn’t come."
+    v "So, how’s the lecture?"
+
+    #show kazuo normal at right
+    #with move
+    #show callista tired at left
+
+    j "It’s pretty boring and I can’t focus on it."
+
+    #show kazuo happy
+
+    v "Well then, to clear your mind, I have good news."
+
+    #show callista thinking
+
+    j "What is it?"
+
+    v "We’re having a sponsor for our next collab."
+
+    #show callista happy
+
+    j "That’s really good."
+
+    #hide callista
+    #hide kazuo
+
+    "*Callista dan Kazuo talks more for a bit before Kazuo ends the call*"
 
     return
