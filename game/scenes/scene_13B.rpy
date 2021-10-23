@@ -38,6 +38,8 @@ label scene_13B:
     j "Kazuo! What are you doing?"
     j "What if anyone else saw you?"
 
+    $ Darren_Reveal = True
+
     #show darren happy
 
     w "Also, my name isn’t Kazuo. It’s Darren."

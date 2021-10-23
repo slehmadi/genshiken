@@ -10,7 +10,11 @@ define w = Character("Darren")
 define b = Character("Bisma")
 define c = Character("Lucky")
 define i = Character("Interviewer")
+
+# variable
+
 default Skor = 0
+default Darren_Reveal = False
 
 # declare chara sprites
 # sebenernya asal file gak usah asal var-nya huruf kecil semua
@@ -94,8 +98,6 @@ image dummyC sad:
 
 # The game starts here.
 label start:
-    call variables
-
     #scene 1
     call scene_1
 
@@ -132,10 +134,10 @@ label start:
     call scene_15
     call scene_16
 
-    if Skor > 0:
-        call Seventeen_A
+    if not Darren_Reveal:
+        call scene_17A
     else:
-        call Seventeen_B
+        call scene_17B
 
     scene 18
     menu:
@@ -150,19 +152,6 @@ label start:
         jump END2
     else:
         jump END3
-
-label variables:
-    $ Skor = 0
-    return
-
-label Thirteen_Fourteen_A:
-    scene 13A
-    scene 14A
-    return
-label Thirteen_Fourteen_B:
-    scene 13B
-    scene 14B
-    return
 
 label Seventeen_A:
     scene 17A

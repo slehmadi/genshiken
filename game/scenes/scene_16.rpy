@@ -75,16 +75,16 @@ label scene_16:
 
     #hide lucky
     
-    "*Lucky ends the call and Callista picks up Darren’s call*"
+    "*Lucky ends the call and Callista picks up Kazuo’s call*"
 
-    #show darren normal at right
+    #show kazuo normal at right
 
-    w "Where are you, Callista? I’m already waiting."
+    v "Where are you, Callista? I’m already waiting."
 
     j "I’m sorry, I’m going to stream as soon as I can."
     j "Talk to you later in Discord."
 
-    #hide darren
+    #hide kazuo
     #hide callista
 
     "*Callista hastily ends the call and turns on the computer*"
