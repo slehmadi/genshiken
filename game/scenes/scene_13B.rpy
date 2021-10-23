@@ -104,4 +104,6 @@ label scene_13B:
     j "That’s such a good name too."
     j "What am I thinking? I should just rest now."
 
+    jump scene_14B
+
     return

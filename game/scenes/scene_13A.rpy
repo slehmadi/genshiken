@@ -126,4 +126,6 @@ label scene_13A:
 
     "*After a tiring day, Bisma and Callista went to their homes*"
 
+    jump scene_14A
+
     return
