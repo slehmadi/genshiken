@@ -129,6 +129,7 @@ label start:
     #scene 13-14 sudah di scene_12
 
     scene 15-16
+    call scene_15
 
     if Skor > 0:
         call Seventeen_A
