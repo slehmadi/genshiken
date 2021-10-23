@@ -11,10 +11,11 @@ define b = Character("Bisma")
 define c = Character("Lucky")
 define i = Character("Interviewer")
 
-# variable
+# variables
 
 default Skor = 0
 default Darren_Reveal = False
+default choose_with = ""
 
 # declare chara sprites
 # sebenernya asal file gak usah asal var-nya huruf kecil semua
@@ -143,15 +144,18 @@ label start:
     call scene_18
 
     if Skor > 29:
-        jump END1
+        if choose_with == "B":
+            jump scene_END1_B
+        else: #choose_with == "V"
+            jump scene_END1_V
     elif Skor < -29:
-        jump END2
+        if choose_with == "B":
+            jump scene_END2_B
+        else: #choose_with == "V"
+            jump scene_END2_V
     else:
-        jump END3
+        if choose_with == "B":
+            jump scene_END3_B
+        else: #choose_with == "V"
+            jump scene_END3_V
 
-label END1:
-    scene END1
-label END2:
-    scene END2
-label END3:
-    scene END3

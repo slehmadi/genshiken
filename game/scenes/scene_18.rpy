@@ -124,6 +124,7 @@ label scene_18:
 
 label scene_18_choice1:
     $ Skor += 30
+    $ choose_with = "B"
 
     j "I guess...I will go with Bisma."
 
@@ -149,6 +150,7 @@ label scene_18_choice1:
 
 label scene_18_choice2:
     $ Skor -= 30
+    $ choose_with = "V"
 
     j "I guess...I will go with Kazuo."
 
