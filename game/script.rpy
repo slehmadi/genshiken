@@ -130,6 +130,7 @@ label start:
 
     scene 15-16
     call scene_15
+    call scene_16
 
     if Skor > 0:
         call Seventeen_A
