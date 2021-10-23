@@ -140,11 +140,7 @@ label start:
         call scene_17B
 
     scene 18
-    menu:
-        "ke amusement park bareng B":
-            $ Skor += 30
-        "ke amusement park bareng V":
-            $ Skor -= 30
+    call scene_18
 
     if Skor > 29:
         jump END1
@@ -152,13 +148,6 @@ label start:
         jump END2
     else:
         jump END3
-
-label Seventeen_A:
-    scene 17A
-    return
-label Seventeen_B:
-    scene 17B
-    return
 
 label END1:
     scene END1
