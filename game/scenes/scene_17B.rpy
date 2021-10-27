@@ -94,7 +94,7 @@ label scene_17B:
     return
 
 label scene_17B_choice1:
-    #$ Skor +=
+    $ Skor += 10
     
     j "Oh…, that’s great."
 
@@ -126,8 +126,7 @@ label scene_17B_choice1:
     return
 
 label scene_17B_choice2:
-    #$ Skor -= 
-
+    $ Skor -= 10
     #show callista surprised
 
     j "Wait Really?"

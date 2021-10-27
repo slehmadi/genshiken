@@ -57,7 +57,7 @@ label scene_14B:
     return
 
 label scene_14B_choice1:
-    #$ Skor +=
+    $ Skor += 10
 
     #show callista sad
 
@@ -76,7 +76,7 @@ label scene_14B_choice1:
     return
 
 label scene_14B_choice2:
-    #$ Skor -=
+    $ Skor -= 10
 
     #show callista sad
 

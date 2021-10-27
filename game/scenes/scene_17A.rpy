@@ -94,7 +94,7 @@ label scene_17A:
     return
 
 label scene_17A_choice1:
-    #$ Skor += 
+    $ Skor += 10
 
     #show callista normal
 
@@ -126,7 +126,7 @@ label scene_17A_choice1:
     return
 
 label scene_17A_choice2:
-    #$ Skor -=
+    $ Skor -= 10
 
     #show callista happy
 
