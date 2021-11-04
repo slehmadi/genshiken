@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scene_3.rpy", line 13: expecting name after dot.
-    self.xpos.(-4)
-              ^
+File "game/scenes/scene_1.rpy", line 5: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation.
+    loop = False
+    ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Thu Oct 21 16:13:56 2021
+Thu Nov  4 22:09:41 2021

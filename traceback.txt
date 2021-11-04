@@ -1,24 +1,40 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 139, in script
-    else:
-SyntaxError: invalid syntax (script.rpy, line 139)
+  File "game/script.rpy", line 108, in script call
+    call scene_1
+  File "game/scenes/scene_1.rpy", line 4, in script
+    play music "<loop False>audio/Musics/1-[Kelas] Slow Steps.mp3"
+  File "renpy/common/000statements.rpy", line 129, in execute_play_music
+    relative_volume=eval(p.get("volume", "1.0")))
+Exception: Parsing audio spec u'<loop False>audio/Musics/1-[Kelas] Slow Steps.mp3': expected float, got u'False'..
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 139, in script
-    else:
-  File "renpy/ast.py", line 1893, in execute
-    if renpy.python.py_eval(condition):
-  File "renpy/python.py", line 2264, in py_eval
-    code = py_compile(code, 'eval')
-  File "renpy/python.py", line 835, in py_compile
-    raise e
-SyntaxError: invalid syntax (script.rpy, line 139)
+  File "game/script.rpy", line 108, in script call
+    call scene_1
+  File "game/scenes/scene_1.rpy", line 4, in script
+    play music "<loop False>audio/Musics/1-[Kelas] Slow Steps.mp3"
+  File "renpy/ast.py", line 2010, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 1998, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 129, in execute_play_music
+    relative_volume=eval(p.get("volume", "1.0")))
+  File "renpy/audio/music.py", line 127, in play
+    c.enqueue(filenames, loop=loop, synchro_start=synchro_start, fadein=fadein, tight=tight, loop_only=loop_only, relative_volume=relative_volume)
+  File "renpy/audio/audio.py", line 643, in enqueue
+    filename, _, _ = self.split_filename(filename, False)
+  File "renpy/audio/audio.py", line 399, in split_filename
+    loop = expect_float()
+  File "renpy/audio/audio.py", line 354, in expect_float
+    raise exception("expected float, got {!r}.".format(v))
+Exception: Parsing audio spec u'<loop False>audio/Musics/1-[Kelas] Slow Steps.mp3': expected float, got u'False'..
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
-genshiken 1.0
-Sat Oct 23 16:35:30 2021
+ACE S.U.S Battalion 1.0
+Thu Nov  4 22:14:28 2021

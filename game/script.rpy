@@ -17,6 +17,11 @@ default Skor = 0
 default Darren_Reveal = False
 default choose_with = "X"
 
+# declare background name
+
+image bg kamar1:
+    "Backgrounds/Kamar 1.png"
+
 # declare chara sprites
 # sebenernya asal file gak usah asal var-nya huruf kecil semua
 
