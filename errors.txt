@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scene_1.rpy", line 10: expected end of line
-    voice "<from 0.0 to 4.3>audio/Dubs/Interviewer/Scene 1_Interviewer_Final.mp3" volume 1.0
-                                                                                  ^
+File "game/script.rpy", line 25: Line is indented, but the preceding default statement statement does not expect a block. Please check this line's indentation.
+    "Backgrounds/3-[Kamar2].png"
+    ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Fri Nov  5 08:42:47 2021
+Fri Nov  5 09:40:26 2021

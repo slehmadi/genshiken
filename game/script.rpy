@@ -19,8 +19,26 @@ default choose_with = "X"
 
 # declare background name
 
-image bg kamar1:
-    "Backgrounds/Kamar 1.png"
+image bg 1:
+    "Backgrounds/1-Couch.png"
+    zoom 0.8
+image bg 2:
+    "Backgrounds/2-PC2.png"
+    zoom 0.8
+image bg 3:
+    "Backgrounds/3-Kamar2.png"
+image bg 4:
+    "Backgrounds/4-Taman.png"
+image bg 5:
+    "Backgrounds/5-Stage.png"
+image bg 6:
+    "Backgrounds/6-Kelas.png"
+image bg 7:
+    "Backgrounds/7-Kamar1"
+image bg 8:
+    "Backgrounds/8-Amusement Park.png"
+image bg 9:
+    "Backgrounds/9-Sea.png"
 
 # declare chara sprites
 # sebenernya asal file gak usah asal var-nya huruf kecil semua
@@ -101,6 +119,9 @@ image dummyC angry:
 image dummyC sad:
     "Dummies/characters/dummyC/taishiro outing sad.png"
     zoom 0.65
+
+image callista normal:
+    "Chara/irl_hazu.png"
 
 # The game starts here.
 label start:

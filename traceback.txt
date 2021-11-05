@@ -1,40 +1,64 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 108, in script call
+  File "game/script.rpy", line 127, in script call
     call scene_1
-  File "game/scenes/scene_1.rpy", line 4, in script
-    play music "<loop False>audio/Musics/1-[Kelas] Slow Steps.mp3"
-  File "renpy/common/000statements.rpy", line 129, in execute_play_music
-    relative_volume=eval(p.get("volume", "1.0")))
-Exception: Parsing audio spec u'<loop False>audio/Musics/1-[Kelas] Slow Steps.mp3': expected float, got u'False'..
+  File "game/scenes/scene_1.rpy", line 6, in script
+    "VTuber agency is not rare nowadays"
+  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
+    _window_show(auto=True)
+  File "renpy/common/000window.rpy", line 69, in _window_show
+    renpy.with_statement(trans)
+Exception: In DynamicImage u'Backgrounds/1-[Couch].png': Could not find substitution 'Couch'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 108, in script call
+  File "game/script.rpy", line 127, in script call
     call scene_1
-  File "game/scenes/scene_1.rpy", line 4, in script
-    play music "<loop False>audio/Musics/1-[Kelas] Slow Steps.mp3"
-  File "renpy/ast.py", line 2010, in execute
-    self.call("execute")
-  File "renpy/ast.py", line 1998, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "renpy/statements.py", line 278, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 129, in execute_play_music
-    relative_volume=eval(p.get("volume", "1.0")))
-  File "renpy/audio/music.py", line 127, in play
-    c.enqueue(filenames, loop=loop, synchro_start=synchro_start, fadein=fadein, tight=tight, loop_only=loop_only, relative_volume=relative_volume)
-  File "renpy/audio/audio.py", line 643, in enqueue
-    filename, _, _ = self.split_filename(filename, False)
-  File "renpy/audio/audio.py", line 399, in split_filename
-    loop = expect_float()
-  File "renpy/audio/audio.py", line 354, in expect_float
-    raise exception("expected float, got {!r}.".format(v))
-Exception: Parsing audio spec u'<loop False>audio/Musics/1-[Kelas] Slow Steps.mp3': expected float, got u'False'..
+  File "game/scenes/scene_1.rpy", line 6, in script
+    "VTuber agency is not rare nowadays"
+  File "renpy/ast.py", line 686, in execute
+    statement_name("say")
+  File "renpy/ast.py", line 46, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
+    _window_show(auto=True)
+  File "renpy/common/000window.rpy", line 69, in _window_show
+    renpy.with_statement(trans)
+  File "renpy/exports.py", line 1682, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "renpy/display/core.py", line 2718, in do_with
+    clear=clear)
+  File "renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 3694, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 570, in visit_all
+    callback(self)
+  File "renpy/display/core.py", line 3694, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/image.py", line 752, in per_interact
+    self.find_target()
+  File "renpy/display/image.py", line 638, in find_target
+    raise Exception("In DynamicImage %r: Could not find substitution '%s'." % (self.name, str(ke.args[0])))
+Exception: In DynamicImage u'Backgrounds/1-[Couch].png': Could not find substitution 'Couch'.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 ACE S.U.S Battalion 1.0
-Thu Nov  4 22:14:28 2021
+Fri Nov  5 12:24:05 2021

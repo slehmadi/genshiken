@@ -4,8 +4,7 @@ label scene_2:
     "*A year later...*"
     "*Hazu-chan and Kazuo is in a heated game of Apex Legends*"
 
-    scene bg personalroom:
-        zoom 0.9
+    scene bg 2
     pause(1.0)
     show dummyV neutral #show kazuo intense
     with dissolve
@@ -43,10 +42,10 @@ label scene_2:
     show dummyH neutral #show hazu focused
     h "Understood."
 
-    #play music "gunshot.mp3"
-    #pause(2.0)
-    #stop music
+    play sound "audio/Sound Effects/sfx1.mp3" volume 0.5
+    pause(2.5)
 
+    stop sound fadeout 0.2
     v "One down. Be careful! There’s an enemy near you."
 
     show dummyH sad #show hazu sad
@@ -54,10 +53,10 @@ label scene_2:
 
     v "Leave it to me."
 
-    #play music "gunshot.mp3"
-    #pause(2.0)
-    #stop music
+    play sound "audio/Sound Effects/sfx1.mp3" volume 0.5
+    pause(2.5)
 
+    stop sound fadeout 0.2
     show dummyH happy #show hazu happy
     h "Nice! You got them! You killed both of them with ease!"
     h "So this is how playing with a Master rank feels like."
@@ -90,17 +89,19 @@ label scene_2:
     v "Hazu, over here!"
     v "He’s coming to you."
 
-    #play music "kraber.mp3" loop = false (wait ini gua blm explore lagi)
+    play sound "audio/Sound Effects/sfx2.mp3" volume 0.5
+    pause(1.69)
 
+    stop sound fadeout 0.2
     v "I hit him again! He’s so low."
 
     show dummyH frightened #show hazu surprised
     h "Oh, wait! Aaah, he’s here!"
 
-    #play music "gunshot.mp3"
-    #pause(2.0)
-    #stop music
+    play sound "audio/Sound Effects/sfx1.mp3" volume 0.5
+    pause(2.5)
 
+    stop sound fadeout 0.2
     show dummyV happy #show kazuo happy
     v "You got him, Hazu!"
 
@@ -171,9 +172,10 @@ label scene_2:
     scene black
     with dissolve
     "..."
-    scene bg bedroom: #scene room
-        zoom 0.9
+    scene bg 2
     with dissolve
+
+    play music "audio/Musics/2-Kamar_Easy Feeling.mp3"
 
     show dummyJ wonder #show callista normal
     j "Fuaah, that was a fun stream."
@@ -240,14 +242,15 @@ label scene_2:
 
     j "Okay, bye!"
 
+    play sound "audio/Sound Effects/sfx4.mp3"
     hide dummyV
     with dissolve
 
     show dummyJ smile at center
     with move
-    #play music "discord.mp3"
 
     show dummyJ wonder #show callista thinking
     j "*Huh…, guess I better check on my friends.*"
 
+    stop music
     return

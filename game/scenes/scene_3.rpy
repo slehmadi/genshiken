@@ -1,11 +1,10 @@
 
 label scene_3:
-    scene bg bedroom: #scene bg phone (?)
-        zoom 0.9
+    scene bg 3
     pause(1.0)
 
     show dummyJ wonder at left#show callista normal at left
-    with dissolve #with move
+    #with move
 
     "*Callista checks her phone*"
 
