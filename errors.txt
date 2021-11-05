@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scene_1.rpy", line 5: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation.
-    loop = False
-    ^
+File "game/scenes/scene_1.rpy", line 10: expected end of line
+    voice "<from 0.0 to 4.3>audio/Dubs/Interviewer/Scene 1_Interviewer_Final.mp3" volume 1.0
+                                                                                  ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Thu Nov  4 22:09:41 2021
+Fri Nov  5 08:42:47 2021
