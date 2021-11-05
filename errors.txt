@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 25: Line is indented, but the preceding default statement statement does not expect a block. Please check this line's indentation.
-    "Backgrounds/3-[Kamar2].png"
-    ^
+File "game/scenes/scene_1.rpy", line 58: expected end of line
+    voice voice callistaVoiceScene1+"Scene 1_HJ_6_Final.mp3"
+                ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Fri Nov  5 09:40:26 2021
+Fri Nov  5 18:55:02 2021

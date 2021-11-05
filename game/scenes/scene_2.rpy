@@ -1,3 +1,5 @@
+define kazuoVoiceScene2 = "audio/Dubs/V-W/Scene 2/"
+define callistaVoiceScene2 = "audio/Dubs/J-H/Scene 2/"
 
 label scene_2:
     scene black
@@ -6,24 +8,24 @@ label scene_2:
 
     scene bg 2
     pause(1.0)
-    show dummyV neutral #show kazuo intense
-    with dissolve
+    show dummyV neutral at left #show kazuo intense
+
     v "There’s one team nearby. We should hide here for a while."
 
-    show dummyV neutral at left #show kazuo intense at left
-    with move #with move
     show dummyH frightened at right: #show hazu intense at right
         xzoom -1
-    with dissolve #with moveIn
 
     h "Okay. I can hear them too."
 
     show dummyV surprised #show kazuo confused
+    voice kazuoVoiceScene2+"Scene 2_V_1_Final.mp3"
     v "What happened? Suddenly there are only four teams left."
 
     show dummyH terrified #show hazu surprise
+    voice callistaVoiceScene2+"Scene 2_HJ_1_Final.mp3"
     h "Woah, I just noticed that too."
 
+    voice kazuoVoiceScene2+"Scene 2_V_2_Final.mp3"
     v "Wait, are they coming to us?"
     v "..."
     
@@ -34,6 +36,7 @@ label scene_2:
     h "I’m using my ult."
 
     show dummyV angry #show kazuo intense
+    voice kazuoVoiceScene2+"Scene 2_V_3_Final.mp3"
     v "Nice. I’m throwing a grenade."
 
     show dummyV neutral #show kazuo focused
@@ -49,6 +52,7 @@ label scene_2:
     v "One down. Be careful! There’s an enemy near you."
 
     show dummyH sad #show hazu sad
+    voice callistaVoiceScene2+"Scene 2_HJ_2_Final.mp3"
     h "Oh no I died! He’s so low!"
 
     v "Leave it to me."
@@ -109,8 +113,10 @@ label scene_2:
     h "WOOO! I got him!"
     h "We are the Champions!"
 
+    voice kazuoVoiceScene2+"Scene 2_V_4_Final.mp3"
     v "Nice! GG!"
 
+    voice callistaVoiceScene2+"Scene 2_HJ_3_Final.mp3"
     h "Woah, GG!"
     h "I never thought I would be able to be the Champions."
     h "Kazuo! You carried me really hard in that game. Thank youuu."
@@ -123,6 +129,7 @@ label scene_2:
     v "I don’t need anything, tho."
     v "But yeah, that was a lot of fun."
 
+    voice callistaVoiceScene2+"Scene 2_HJ_4_Final.mp3"
     h "Yeah, that was so fun."
     h "Oh my god! Thank you so much for all the superchat, guys!"
     h "I never imagined my first win to be on stream."
@@ -130,6 +137,7 @@ label scene_2:
     v "That’s good isn’t it? Everyone just saw the birth of a new Apex Predator."
 
     #show hazu energetic
+    voice callistaVoiceScene2+"Scene 2_HJ_5_Final.mp3"
     h "Sure. Yes. Listen guys, on the next stream, I will be playing ranked."
     h "And in one week, I will become a Predator!"
     h "Actually, what the hell am I saying?"
@@ -175,20 +183,19 @@ label scene_2:
     scene bg 2
     with dissolve
 
-    play music "audio/Musics/2-Kamar_Easy Feeling.mp3"
+    play music "audio/Musics/2-Kamar_Easy Feeling.mp3" volume 0.15
 
-    show dummyJ wonder #show callista normal
+    show dummyJ wonder at left #show callista normal
+    voice callistaVoiceScene2+"Scene 2_HJ_6_Final.mp3"
     j "Fuaah, that was a fun stream."
 
     #show callista tired
     j "I feel kinda sleepy now."
 
-    show dummyJ wonder at left #show callista tired at left
-    with dissolve
     show dummyV neutral at right: #show kazuo normal at right
         xzoom -1
-    with dissolve
 
+    voice kazuoVoiceScene2+"Scene 2_V_5_Final.mp3"
     v "Thank god it ended. I’m a bit worried there because you said earlier that your college will start tomorrow."
     
     #show kazuo focused
@@ -207,6 +214,7 @@ label scene_2:
     v "Isn’t that what you always told me?"
 
     #show callista smirk
+    voice callistaVoiceScene2+"Scene 2_HJ_7_Final.mp3"
     j "Hmmph, what are you saying?"
     j "I do have friends…"
     j "…well, two friends, not including you."
@@ -252,5 +260,4 @@ label scene_2:
     show dummyJ wonder #show callista thinking
     j "*Huh…, guess I better check on my friends.*"
 
-    stop music
     return

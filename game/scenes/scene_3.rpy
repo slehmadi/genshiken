@@ -1,58 +1,61 @@
+define callistaVoiceScene3 = "audio/Dubs/J-H/Scene 3/"
 
 label scene_3:
     scene bg 3
     pause(1.0)
 
-    show dummyJ wonder at left#show callista normal at left
+    show dummyJ wonder#show callista normal at left
     #with move
 
     "*Callista checks her phone*"
+    hide dummyJ
 
-    show dummyC happy at right: #show lucky happy at right
-        xalign 0.9
-    with dissolve #with moveIn
+    #show dummyC happy at right: #show lucky happy at right
+    #    xalign 0.9
+    #with dissolve #with moveIn
 
     c "Looking forward to meeting you all tomorrow!"
     c "Callista, remember what I told you about Bisma?"
 
     j "Of course."
 
-    hide dummyJ #hide callista
-    hide dummyC #hide lucky
-    show dummyB confused #show bisma confused
+    #hide dummyJ #hide callista
+    #hide dummyC #hide lucky
+    #show dummyB confused #show bisma confused
 
     b "What did you two say about me?"
 
-    hide dummyB #hide bisma
-    show dummyC normal #show lucky normal
+    #hide dummyB #hide bisma
+    #show dummyC normal #show lucky normal
 
     c "It’s nothing."
     c "Callista, if you’re still worried, stay away from Bisma and stay near me."
 
-    hide dummyC #hide lucky
-    show dummyB confused #show bisma confused
+    #hide dummyC #hide lucky
+    #show dummyB confused #show bisma confused
 
     b "Seriously, what did you say about me? Am I scary?"
 
-    hide dummyB #hide bisma
-    show dummyJ smile at left #show callista laugh at left
-    show dummyC happy at right: #show lucky laugh at right
-        xalign 0.9
+    #hide dummyB #hide bisma
+    #show dummyJ smile #at left #show callista laugh at left
+    #show dummyC happy at right: #show lucky laugh at right
+    #    xalign 0.9
 
+    voice callistaVoiceScene3+"Scene 3_HJ_1_Final.mp3"
     j "Hahaha"
 
     c "Of course not, Bisma. We’re just joking with you."
     
-    hide dummyJ #hide lucky
-    show dummyC normal at center #show lucky normal at center
-    with move 
+    #hide dummyJ #hide lucky
+    #show dummyC normal at center #show lucky normal at center
+    #with move 
 
     c "BTW, looking at the schedule for tomorrow, there's free time after the opening ceremony."
     c "I think we should eat lunch together."
 
-    show dummyC normal at left #show lucky normal at left
-    with move #with move
-    show dummyB neutral at right #show bisma normal at right
+    #show dummyC normal at left #show lucky normal at left
+    #with move #with move
+    #show dummyB neutral at right #show bisma normal at right
     #with moveIn
 
     b "Eat at the canteen?"
@@ -61,22 +64,23 @@ label scene_3:
 
     b "Sounds good. Do you agree, Callista?"
 
-    hide dummyC #hide lucky
-    show dummyJ wonder at left #show callista normal at left
+    #hide dummyC #hide lucky
+    #show dummyJ wonder #at left #show callista normal at left
     #with moveIn
 
+    voice callistaVoiceScene3+"Scene 3_HJ_2_Final.mp3"
     j "Of course."
 
     b "Guess it’ll be pretty awkward for me. You two have met each other and you haven’t met me directly."
 
-    show dummyB smile #show bisma happy
+    #show dummyB smile #show bisma happy
     b "Well, I’m looking forward to meeting you all."
 
-    show dummyJ smile #show callista happy
+    #show dummyJ smile #show callista happy
     j "Looking forward to meet you too \\\^o^/ "
 
-    hide dummyJ #hide callista
-    show dummyC normal at left #show lucky
+    #hide dummyJ #hide callista
+    #show dummyC normal at left #show lucky
     #with moveIn
 
     c "Anyway, I’m going to sleep."
@@ -85,8 +89,6 @@ label scene_3:
     b "Guess I’m gonna sleep too."
     b "Zzzzz"
 
-    scene bg bedroom:
-        zoom 0.9
     "*Callista turns off her phone*"
 
     show dummyJ wonder
@@ -95,4 +97,5 @@ label scene_3:
     j "*I’m glad I know Lucky, he always help me find new friends. Without him, I won’t even know Bisma.*"
     j "*Hope tomorrow goes well.*"
 
+    stop music
     return

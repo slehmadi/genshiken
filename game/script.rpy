@@ -27,10 +27,12 @@ image bg 2:
     zoom 0.8
 image bg 3:
     "Backgrounds/3-Kamar2.png"
+    zoom 0.75
 image bg 4:
     "Backgrounds/4-Taman.png"
 image bg 5:
     "Backgrounds/5-Stage.png"
+    zoom 0.8
 image bg 6:
     "Backgrounds/6-Kelas.png"
 image bg 7:
@@ -122,6 +124,7 @@ image dummyC sad:
 
 image callista normal:
     "Chara/irl_hazu.png"
+    zoom 0.49
 
 # The game starts here.
 label start:
@@ -135,29 +138,29 @@ label start:
     call scene_3
     call scene_4
 
-    scene 5
+    #scene 5
     call scene_5
 
-    scene 6
+    #scene 6
     call scene_6
 
-    scene 7
+    #scene 7
     call scene_7
 
     #scene 8-9 sudah di scene_7
 
-    scene 10
+    #scene 10
     call scene_10
 
-    scene 11
+    #scene 11
     call scene_11
 
-    scene 12
+    #scene 12
     call scene_12
 
     #scene 13-14 sudah di scene_12
 
-    scene 15-16
+    #scene 15-16
     call scene_15
     call scene_16
 
@@ -166,7 +169,7 @@ label start:
     else:
         call scene_17B
 
-    scene 18
+    #scene 18
     call scene_18
 
     if Skor > 29:
