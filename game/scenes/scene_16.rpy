@@ -1,36 +1,46 @@
 
 label scene_16:
-    scene bg room
+    scene black 
+    with dissolve
+    "{i}Later That Night..{/i}"
 
-    "*Callista is on her bed, talking to Lucky*"
+    scene bg 3
+    with dissolve
 
-    #show lucky worried
+    play music "audio/Musics/2-Kamar_Easy Feeling.mp3" volume 0.45
+
+    "{i}Callista is on her bed, talking to Lucky.{/i}"
+
+    show lucky worried right
+    show callista focused left 
+    with dissolve
 
     c "You don’t usually call me during this time."
     c "Did something bad happen?"
 
     #show lucky worried at right
     #show callista sad at left
+    show callista sad left 
 
     j "Well, my bag got stolen today."
 
     c "Wait, really?"
     c "Are you okay?"
 
-    #show callista happy
+    show callista happy left 
 
     j "Yes I’m fine."
     j "Bisma helped me to get it back."
 
     c "Well then, why did you call me?"
 
-    #show callista thinking
+    show callista thinking left 
 
     j "I’m just feeling a bit indecisive."
     j "Bisma has helped me a lot but I’m still not sure whether he is the right person for me."
     j "Do you think he’s the right one for me?"
 
-    #show lucky normal
+    show lucky normal right 
 
     c "First of all, I need you to answer this question."
     c "Are you actually attracted to him or do you just want to be in a relationship?"
@@ -49,7 +59,7 @@ label scene_16:
     c "You should fix your mind set and instead think carefully on {b}who{/b} you’re gonna date."
     c "Now, I want you to take a step back and take a deep breath."
 
-    #show callista normal
+    show callista focused left 
 
     j "Okay, I have."
     
@@ -59,23 +69,27 @@ label scene_16:
 
     c "Great! Now wh—"
 
-    #hide callista
-    #hide lucky
-    #play sound "phone.mp3"
+    hide callista
+    hide lucky
+    with dissolve
 
-    #show callista normal at left
-    #show lucky normal at right
+    "{i}Callista’s phone is ringing.{/i}"
 
-    j "*It’s Kazuo.*"
+    show callista focused left
+    show lucky normal right
+    with dissolve
+
+    j "{i}It’s Kazuo.{/i}"
     j "Lucky, I’m sorry, but I think I have to go now."
     j "I forgot that I have a collab with Kazuo today."
 
     c "It’s okay, we can continue to talk later."
     c "Go do your job."
 
-    #hide lucky
+    hide lucky
+    with dissolve
     
-    "*Lucky ends the call and Callista picks up Kazuo’s call*"
+    "{i}Lucky ends the call and Callista picks up Kazuo’s call.{/i}"
 
     #show kazuo normal at right
 
@@ -84,9 +98,11 @@ label scene_16:
     j "I’m sorry, I’m going to stream as soon as I can."
     j "Talk to you later in Discord."
 
-    #hide kazuo
-    #hide callista
+    hide kazuo
+    hide callista
+    with dissolve
 
-    "*Callista hastily ends the call and turns on the computer*"
+    "{i}Callista hastily ends the call and turns on the computer.{/i}"
 
+    stop music
     return

@@ -273,18 +273,58 @@ image kazuo surprised right:
     zoom 0.275
     anchor(0.0, 0.9)
 
-image darren normal:
+image darren normal center:
     "Chara/darren/DARREN idle.png"
     zoom 0.275
-image darren confused:
+    anchor(0.5, 0.83)
+image darren normal left:
+    "Chara/darren/DARREN idle.png"
+    zoom 0.275
+    xzoom -1 
+    anchor(1.0, 0.83)
+image darren normal right:
+    "Chara/darren/DARREN idle.png"
+    zoom 0.275
+    anchor(0.0, 0.83)
+image darren confused center:
     "Chara/darren/DARREN confused.png"
     zoom 0.275
-image darren serious:
+    anchor(0.5, 0.83)
+image darren confused left:
+    "Chara/darren/DARREN confused.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.83)
+image darren confused right:
+    "Chara/darren/DARREN confused.png"
+    zoom 0.275
+    anchor(0.0, 0.83)
+image darren serious center:
     "Chara/darren/DARREN serious.png"
     zoom 0.275
-image darren surprised:
+    anchor(0.5, 0.83)
+image darren serious left:
+    "Chara/darren/DARREN serious.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.83)
+image darren serious right:
+    "Chara/darren/DARREN serious.png"
+    zoom 0.275
+    anchor(0.0, 0.83)
+image darren surprised center:
     "Chara/darren/DARREN surprised.png"
     zoom 0.275
+    anchor(0.5, 0.83)
+image darren surprised left:
+    "Chara/darren/DARREN surprised.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.83)
+image darren surprised right:
+    "Chara/darren/DARREN surprised.png"
+    zoom 0.275
+    anchor(0.0, 0.83)
 
 image bisma normal center:
     "Chara/bisma/BISMA6.png"

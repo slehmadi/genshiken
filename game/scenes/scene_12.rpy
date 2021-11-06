@@ -1,13 +1,17 @@
+define callistaVoiceScene12 = "audio/Dubs/J-H/Scene 12/"
 
 label scene_12:
-    scene bg room
+    scene bg 3
+    with dissolve
+
+    play music "audio/Musics/2-Kamar_Easy Feeling.mp3" volume 0.45
 
     # (wait artinya ini juga gk perlu nunjukin charanya yah???)
     #show bisma
     #show callista at left
     #show lucky at right
 
-    "*Callista is chatting with Bisma and Lucky*"
+    "{i}Callista is chatting with Bisma and Lucky.{/i}"
 
     b "Guys, look at the Band Unit chat!"
     b "There’s an assignment."
@@ -41,8 +45,9 @@ label scene_12:
     #hide bisma
     #hide lucky
     #hide callista
+    stop music
 
-    "*Callista is about to sleep, but then she receives a message from Kazuo*"
+    "{i}Callista is about to sleep, but then she receives a message from Kazuo.{/i}"
 
     # (ini juga gk perlu yah...)
     #show kazuo
@@ -62,9 +67,11 @@ label scene_12:
     #show callista at center
 
     j "Kazuo, wa—"
-    j "*Tomorrow evening I have to do my Band Unit assignment*"
-    j "*But Kazuo did tell this is very personal*"
-    j "*What should I do?*"
+    j "{i}Tomorrow evening I have to do my Band Unit assignment.{/i}"
+    j "{i}But Kazuo did tell this is very personal.{/i}"
+
+    voice callistaVoiceScene12+"Scene 12_HJ_1_Final.mp3"
+    j "{i}What should I do?{/i}"
 
     menu:
         "Do the Band Unit assignment.":
@@ -77,6 +84,7 @@ label scene_12:
 label scene_12_choice1:
     $ Skor += 30
 
+    voice callistaVoiceScene12+"Scene 12_HJ_2_Final.mp3"
     j "Guess I have to do the assignment."
     j "Assignment is more important to do."
     j "I hope Kazuo doesn’t mind me doing my assignments."
@@ -88,6 +96,7 @@ label scene_12_choice1:
 label scene_12_choice2:
     $ Skor -= 30
 
+    voice callistaVoiceScene12+"Scene 12_HJ_3_Final.mp3"
     j "Guess I will meet with Kazuo."
     j "I don’t want to disappoint Kazuo."
     j "I hope Bisma and Lucky can handle the assignment while I’m gone."

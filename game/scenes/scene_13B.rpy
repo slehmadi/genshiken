@@ -1,11 +1,16 @@
+define kazuoVoiceScene13 = "audio/Dubs/V-W/Scene 13/"
 
 label scene_13B:
-    scene bg room
+    scene bg 2
+    with dissolve
 
-    #music play "discord.mp3" loop = false
+    play sound "audio/Sound Effects/sfx3.mp3"
 
-    #show kazuo normal
+    show kazuo focused right
+    show callista focused left 
+    with dissolve
 
+    voice kazuoVoiceScene13+"Scene_13_V_1_Final.mp3"
     v "Hi, Callista. Thank you for wanting to meet me now."
 
     #show kazuo normal at right
@@ -23,17 +28,20 @@ label scene_13B:
     j "What are you hiding?"
     j "You’re acting really strange."
 
+    voice kazuoVoiceScene13+"Scene_13_V_2_Final.mp3"
     v "Well then, are you paying attention to the video call?"
 
     j "Of course."
 
     #hide callista
-    #hide kazuo
+    hide kazuo
+    with dissolve
 
-    "*Kazuo opens his camera and shows his real face*"
+    "{i}Kazuo opens his camera and shows his real face.{/i}"
 
     #show callista surprised at left
-    #show darren normal at right
+    show darren normal right
+    with dissolve
 
     j "Kazuo! What are you doing?"
     j "What if anyone else saw you?"
@@ -42,6 +50,7 @@ label scene_13B:
 
     #show darren happy
 
+    voice kazuoVoiceScene13+"Scene_13_V_3_Final.mp3"
     w "Also, my name isn’t Kazuo. It’s Darren."
     
     j "Why would you tell me that?"
@@ -64,6 +73,7 @@ label scene_13B:
 
     j "So I’m the first one to see your face?"
 
+    voice kazuoVoiceScene13+"Scene_13_V_4_Final.mp3"
     w "Yep, and probably the last one too."
 
     j "Why do you trust me so much?"
@@ -73,23 +83,26 @@ label scene_13B:
     w "Because you’re my closest friend that I ever had."
     w "I know I could trust you because since the beginning, I could see the kindness inside your heart."
 
-    #show callista blush
+    show callista blushing left #show callista blush
 
     j "That’s nice to hear."
     j "Thank you for the compliment."
 
     #show darren normal
 
+    voice kazuoVoiceScene13+"Scene_13_V_5_Final.mp3"
     w "Well, thank you for being in this call. I’m gonna go now."
 
-    #show callista normal
+    show callista focused left #show callista normal
 
     j "Wait, so you’re telling me to be in this call just for that?"
 
     w "Yep, I’m going now."
 
-    #hide darren
+    hide darren #hide darren
+    with dissolve
 
+    play sound "audio/Sound Effects/sfx4.mp3"
     j "Wait—"
 
     #music play "discord.mp3" loop = false
@@ -97,11 +110,11 @@ label scene_13B:
     #show callista normal at center
 
     j "Such a peculiar person. Why would he do that?"
-    j "*Did he really trust me that much?*"
+    j "{i}Did he really trust me that much?{/i}"
     j "What is his name again?"
     j "Oh yeah, Darren."
 
-    #show callista blush
+    show callista blushing left #show callista blush
 
     j "That’s such a good name too."
     j "What am I thinking? I should just rest now."
