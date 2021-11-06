@@ -12,7 +12,10 @@ label scene_6:
     play sound "audio/Sound Effects/sfx3.mp3"
     "{i}Callista chats with Kazuo.{/i}"
 
-    #show kazuo normal
+    show kazuo focused right #show kazuo normal
+    show callista happy left 
+    with dissolve
+
     voice kazuoVoiceScene6+"Scene 6_V_1_Final.mp3"
     v "So, how’s the first day?"
 
@@ -30,7 +33,7 @@ label scene_6:
 
     v "What is he like?"
 
-    #show callista normal
+    show callista focused left #show callista normal
 
     j "Doesn’t look bad, very energetic, and fun."
     j "We went to the Student Activity Unit Open House and signed up with Lucky to the Band Unit."
@@ -55,6 +58,7 @@ label maybe:
     play music "audio/Musics/2-Kamar_Easy Feeling.mp3" volume 0.45
 
     voice callistaVoiceScene6+"Scene 6_HJ_1_Final.mp3"
+    show callista happy left 
     j "Maybe…."
 
     #show callista happy
@@ -62,14 +66,14 @@ label maybe:
     voice kazuoVoiceScene6+"Scene 6_V_3_Final.mp3"
     v "Huh, interesting."
 
-    #show callista normal
+    show callista focused left #show callista normal
     voice callistaVoiceScene6+"Scene 6_HJ_2_Final.mp3"
     j "What? Are you jealous?"
 
     v "Not at all."
     v "BTW, do you want to collab again tomorrow?"
 
-    #show callista thinking
+    show callista thinking left #show callista thinking
 
     voice callistaVoiceScene6+"Scene 6_HJ_3_Final.mp3"
     j "I dunno. The schedule for tomorrow’s college is not set yet."
@@ -77,14 +81,18 @@ label maybe:
 
     v "Okay then, good night. Have a good sleep."
 
-    #show callista normal
+    show callista focused left #show callista normal
 
     j "You too."
 
+    play sound "audio/Sound Effects/sfx4.mp3"
+    hide kazuo
+    with dissolve
     #hide kazuo
 
-    "*Callista ends their call*"
+    "{i}Callista ends their call{/i}"
 
+    show callista tired left
     j "Guess I better sleep to prepare myself for tomorrow."
 
     stop music
@@ -100,7 +108,7 @@ label not_at_all:
     voice kazuoVoiceScene6+"Scene 6_V_4_Final.mp3"
     v "Well, that’s a surprise."
 
-    #show callista angry
+    show callista mad left #show callista angry
     voice callistaVoiceScene6+"Scene 6_HJ_5_Final.mp3"
     j "What? Do you think just because I said someone is handsome, I automatically liked him?"
 
@@ -109,7 +117,7 @@ label not_at_all:
     v "I just wanted to know so I can set my schedule to not mess too much with yours."
     v "BTW, do you want to collab again tomorrow?"
 
-    #show callista thinking
+    show callista thinking left #show callista thinking
 
     j "I dunno. The schedule for tomorrow’s college is not set yet."
     j "I’ll think about it okay."
@@ -118,11 +126,13 @@ label not_at_all:
 
     j "You too."
 
-    #hide kazuo
+    play sound "audio/Sound Effects/sfx4.mp3"
+    hide kazuo
+    with dissolve
 
-    "*Callista ends their call*"
+    "{i}Callista ends their call{/i}"
 
-    #show callista tired
+    show callista tired left #show callista tired
     j "Guess I better sleep to prepare myself for tomorrow."
 
     stop music

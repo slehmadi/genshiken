@@ -139,8 +139,8 @@ label join_bisma_band:
     scene black
     "{i}Bisma and Callista went to the Art Convention Building.{/i}"
 
-    call scene_8A from _call_scene_8A
-    call scene_9A from _call_scene_9A
+    call scene_8A
+    call scene_9A
 
     stop music
     return
@@ -200,8 +200,8 @@ label go_home_kazuo:
 
     j "{i}I hope Bisma isn’t mad that I refused his invite.{/i}"
 
-    call scene_8B from _call_scene_8B
-    call scene_9B from _call_scene_9B
+    call scene_8B
+    call scene_9B
 
     stop music
     return

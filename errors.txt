@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 115: expected '=' not found.
-    image bisma normal at right:
-                       ^
+File "game/gui.rpy", line 89: Line is indented, but the preceding define statement statement does not expect a block. Please check this line's indentation.
+    zoom(0.8)
+    ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sat Nov  6 13:25:28 2021
+Sat Nov  6 16:18:07 2021

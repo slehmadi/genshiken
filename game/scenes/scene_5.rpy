@@ -64,6 +64,7 @@ label scene_5:
 
     hide callista #hide callista
     hide bisma #hide bisma
+    with dissolve
 
     "{i}Bisma and Callista walk across the row of stands{/i}"
 

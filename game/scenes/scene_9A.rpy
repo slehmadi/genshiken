@@ -1,19 +1,25 @@
+define kazuoVoiceScene9A = "audio/Dubs/V-W/Scene 9/"
 
 label scene_9A:
-    scene
-    "*Callista calls Lucky*"
+    scene bg 3
+    with dissolve
 
-    #show callista normal
+    "{i}Callista calls Lucky{/i}"
+
+    show callista focused left #show callista normal
+    with dissolve
 
     j "Hey Lucky, thanks for answering my call."
 
     #show callista normal at left
     #with move
     #show lucky worried at right
+    show lucky worried right
+    with dissolve
 
     c "What is it, Callista? Is there something wrong?"
 
-    #show callista sad
+    show callista sad left #show callista sad
 
     j "Not really…."
     j "Okay, I do have a problem."
@@ -23,7 +29,7 @@ label scene_9A:
 
     j "Well, I may have done something bad to one of my friends."
 
-    #show lucky normal
+    show lucky normal right #show lucky normal
 
     c "Who?"
 
@@ -33,7 +39,7 @@ label scene_9A:
 
     j "He didn’t do anything wrong, it’s me who did something wrong to him."
 
-    #show lucky worried
+    show lucky worried right #show lucky worried
 
     c "What did you do?"
 
@@ -49,7 +55,7 @@ label scene_9A:
     j "You’re probably right."
     j "But I still feel bad for him."
 
-    #show lucky normal
+    show lucky normal right #show lucky normal
 
     c "Hey, don’t worry. I’m sure Kazuo will understand if you told him your condition."
     pause(1.0)
@@ -61,41 +67,43 @@ label scene_9A:
 
     j "I haven’t either."
 
-    #show lucky angry
+    show lucky angry right #show lucky angry
 
     c "Then what are you doing?"
     c "Go talk to Kazuo now!"
     c "I will go now so you can talk with him."
     c "Bye"
 
-    #hide lucky
+    hide lucky #hide lucky
+    with dissolve
     #hide callista
 
-    "*Lucky hangs Callista’s call*"
+    "{i}Lucky hangs Callista’s call.{/i}"
 
-    #show callista thinking
+    show callista thinking left #show callista thinking
 
     j "Lucky is right. I should talk to him right now."
 
     #hide callista
 
-    "*Callista calls Kazuo*"
+    "{i}Callista calls Kazuo.{/i}"
 
-    #show callista normal at left
+    show callista focused left #show callista normal at left
 
     j "Hi, Kazuo. Sorry to bother you this late."
 
-    #show kazuo normal at right
+    show kazuo focused right #show kazuo normal at right
 
     v "You don’t usually call me this late, what’s the matter?"
 
-    #show callista sad
+    show callista sad left #show callista sad
 
     j "I just want to say that I’m really sorry that I couldn’t collab with you today."
     j "Bisma invited me to watch the Band Unit performance and it’s at the exact same time as our collab that you offered me."
 
     #show kazuo sad
 
+    voice kazuoVoiceScene9A+"Scene 9A_V_1_Final.mp3"
     v "It’s okay, Callista. I understand that college is busy."
     v "I would have enjoyed our collab today, but I understand. College is more important than collabing."
 
@@ -103,7 +111,7 @@ label scene_9A:
 
     v "So how’s the performance? Is it good?"
 
-    #show callista happy
+    show callista happy left #show callista happy
 
     j "It’s a really great performance. Wish you could see it too."
     j "Glad that I joined that Student Activity Unit."
@@ -115,15 +123,17 @@ label scene_9A:
     v "Glad you enjoyed it."
 
     pause(0.5)
-    "*There was a silence between them*"
+    "{i}There was a silence between them{/i}"
     pause(0.5)
 
     #show kazuo normal
 
     v "Well it’s already late. I should just sleep now."
+
+    voice kazuoVoiceScene9A+"Scene 9A_V_2_Final.mp3"
     v "Bye, Callista."
 
-    #show callista normal
+    show callista focused left #show callista normal
 
     j "Bye, Kazuo. Have a good sleep."
 

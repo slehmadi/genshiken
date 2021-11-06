@@ -1,19 +1,24 @@
 
 label scene_9B:
-    scene
-    "*Callista calls Lucky*"
+    scene bg 3
+    with dissolve
 
-    #show callista normal
+    "{i}Callista calls Lucky{/i}"
+
+    show callista focused left #show callista normal
+    with dissolve
 
     j "Hey Lucky, thanks for answering my call."
 
     #show callista normal at left
     #with move
     #show lucky worried at right
+    show lucky worried right
+    with dissolve
 
     c "What is it, Callista? Is there something wrong?"
 
-    #show callista sad
+    show callista sad left #show callista sad
 
     j "Not really…."
     j "Okay, I do have a problem."
@@ -23,7 +28,7 @@ label scene_9B:
 
     j "Well, I may have done something bad to one of my friends."
 
-    #show lucky normal
+    show lucky normal right #show lucky normal
 
     c "Who?"
 
@@ -33,7 +38,7 @@ label scene_9B:
 
     j "He didn’t do anything wrong, it’s me who did something wrong to him."
 
-    #show lucky worried
+    show lucky worried right #show lucky worried
 
     c "What did you do?"
 
@@ -59,54 +64,55 @@ label scene_9B:
 
     j "I haven’t either."
 
-    #show lucky angry
+    show lucky angry right #show lucky angry
 
     c "Then what are you doing?"
     c "Go talk to Bisma now!"
     c "I will go now so you can talk with him."
     c "Bye."
 
-    #hide lucky
+    hide lucky #hide lucky
+    with dissolve
     #hide callista
 
-    "*Lucky hangs Callista’s call*"
+    "{i}Lucky hangs Callista’s call.{/i}"
 
-    #show callista thinking
+    show callista thinking left #show callista thinking
 
     j "Lucky is right. I should talk to him right now."
 
     #hide callista
 
-    "*Callista calls Bisma*"
+    "{i}Callista calls Bisma.{/i}"
 
-    #show callista normal at left
+    show callista focused left #show callista normal at left
 
     j "Hi, Bisma. Sorry to bother you this late."
 
-    #show bisma normal at right
+    show bisma happy right #show bisma normal at right
 
     b "You don’t usually call me, what’s the matter?"
 
-    #show callista sad
+    show callista sad left #show callista sad
 
     j "I just wanted to say that I’m sorry that I couldn’t join you to watch the Band Unit performance today."
     j "I have a VTuber collab at the exact same time as the performance so I wouldn't go there with you."
 
-    #show bisma sad
+    show bisma sad right #show bisma sad
 
     b "It’s okay, Callista. I understand that your job is busy."
     b "I would love it if you could come with me, but I understand. Job is more important than a band performance."
 
-    #show bisma happy
+    show bisma energetic right #show bisma happy
 
     b "So, how did the stream go?"
 
-    #show callista happy
+    show callista happy left #show callista happy
 
     j "It went really well."
     j "I played lots of games and even managed to win some."
 
-    #show bisma sad
+    show bisma sad right #show bisma sad
 
     b "It’s good to hear you have a great time."
     b "Glad you enjoyed it."
@@ -115,12 +121,12 @@ label scene_9B:
     "*There was a silence between them*"
     pause(0.5)
 
-    #show bisma normal
+    show bisma happy right #show bisma normal
 
     b "Well it’s already late. I should just sleep now."
     b "Bye, Callista."
 
-    #show callista normal
+    show callista focused left #show callista normal
 
     j "Bye, Bisma. Have a good sleep."
 

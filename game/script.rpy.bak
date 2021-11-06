@@ -35,16 +35,12 @@ image bg 5:
     zoom 0.8
 image bg 6:
     "Backgrounds/6-Kelas.png"
-    zoom 0.8
 image bg 7:
-    "Backgrounds/7-Kamar1.png"
-    zoom 0.8
+    "Backgrounds/7-Kamar1"
 image bg 8:
     "Backgrounds/8-Amusement Park.png"
-    zoom 0.8
 image bg 9:
     "Backgrounds/9-Sea.png"
-    zoom 0.8
 
 # declare chara sprites
 # sebenernya asal file gak usah asal var-nya huruf kecil semua
@@ -391,29 +387,29 @@ image lucky happy right:
     "Chara/lucky/2LUCKY.png"
     zoom 0.275
     anchor(0.0, 0.9)
-image lucky surprised center:
+image lucky blushing center:
     "Chara/lucky/3LUCKY.png"
     zoom 0.275
     anchor(0.5, 0.9)
-image lucky surprised left:
+image lucky blushing left:
     "Chara/lucky/3LUCKY.png"
     zoom 0.275
     xzoom -1
     anchor(1.0, 0.9)
-image lucky surprised right:
+image lucky blushing right:
     "Chara/lucky/3LUCKY.png"
     zoom 0.275
     anchor(0.0, 0.9)
-image lucky sad center:
+image lucky worried center:
     "Chara/lucky/4LUCKY.png"
     zoom 0.275
     anchor(0.5, 0.9)
-image lucky sad left:
+image lucky worried left:
     "Chara/lucky/4LUCKY.png"
     zoom 0.275
     xzoom -1
     anchor(1.0, 0.9)
-image lucky sad right:
+image lucky worried right:
     "Chara/lucky/4LUCKY.png"
     zoom 0.275
     anchor(0.0, 0.9)
@@ -430,16 +426,16 @@ image lucky angry right:
     "Chara/lucky/5LUCKY.png"
     zoom 0.275
     anchor(0.0, 0.9)
-image lucky worried center:
+image lucky surprised center:
     "Chara/lucky/6LUCKY.png"
     zoom 0.275
     anchor(0.5, 0.9)
-image lucky worried left:
+image lucky surprised left:
     "Chara/lucky/6LUCKY.png"
     zoom 0.275
     xzoom -1
     anchor(1.0, 0.9)
-image lucky worried right:
+image lucky surprised right:
     "Chara/lucky/6LUCKY.png"
     zoom 0.275
     anchor(0.0, 0.9)
@@ -447,48 +443,48 @@ image lucky worried right:
 # The game starts here.
 label start:
     #scene 1
-    call scene_1 from _call_scene_1
+    call scene_1
 
     scene Opening
 
     #scene 2-4
-    call scene_2 from _call_scene_2
-    call scene_3 from _call_scene_3
-    call scene_4 from _call_scene_4
+    call scene_2
+    call scene_3
+    call scene_4
 
     #scene 5
-    call scene_5 from _call_scene_5
+    call scene_5
 
     #scene 6
-    call scene_6 from _call_scene_6
+    call scene_6
 
     #scene 7
-    call scene_7 from _call_scene_7
+    call scene_7
 
     #scene 8-9 sudah di scene_7
 
     #scene 10
-    call scene_10 from _call_scene_10
+    call scene_10
 
     #scene 11
-    call scene_11 from _call_scene_11
+    call scene_11
 
     #scene 12
-    call scene_12 from _call_scene_12
+    call scene_12
 
     #scene 13-14 sudah di scene_12
 
     #scene 15-16
-    call scene_15 from _call_scene_15
-    call scene_16 from _call_scene_16
+    call scene_15
+    call scene_16
 
     if not Darren_Reveal:
-        call scene_17A from _call_scene_17A
+        call scene_17A
     else:
-        call scene_17B from _call_scene_17B
+        call scene_17B
 
     #scene 18
-    call scene_18 from _call_scene_18
+    call scene_18
 
     if Skor > 29:
         if choose_with == "B":
