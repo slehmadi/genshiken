@@ -4,15 +4,17 @@ define bismaVoiceScene5 = "audio/Dubs/B/Scene_5_B_Final.mp3"
 label scene_5:
     pause 0.1
     scene bg 5
+    with dissolve
+
     pause 0.3
-    play music "audio/Musics/8-Sabuga_Night Run Away.mp3" volume 0.15
+    play music "audio/Musics/8-Sabuga_Night Run Away.mp3" volume 0.45
 
-    "*Callista, Lucky, and Bisma arrived at the Art Convention Building*"
-    "*The room is filled with different stands from every Student Activity Unit*"
-    "*They all walk around multiple times, looking at every Unit*"
+    "{i}Callista, Lucky, and Bisma arrived at the Art Convention Building.{/i}"
+    "{i}The room is filled with different stands from every Student Activity Unit.{/i}"
+    "{i}They all walk around multiple times, looking at every Unit.{/i}"
 
-    show dummyB neutral at right: #show bisma normal
-        xzoom -1
+    show bisma normal right
+    with dissolve
 
     b "Alright, we have seen about three fourths of the Student Activity Unit here."
     b "What stand should we visit next?"
@@ -20,21 +22,27 @@ label scene_5:
     #show bisma normal at right
     #with move
     #show callista normat at left
-    show dummyJ smile at left
+    show callista focused left
+    with dissolve
 
     j "We’ve visited a lot of stands. I think that’s enough for us to visit."
 
-    show dummyC normal #show lucky normal
+    hide bisma
+    show lucky normal right #show lucky normal
 
     c "Yeah. We’ve visited the Art Unit, the Band Unit, The Sports Unit, even other Units that’s pretty weird."
     c "I mean, who wants to join the Pop Culture Enthusiast Unit, right?"
+
+    hide callista
+    show bisma normal left
 
     b "So, you guys are joining the Band Unit, right?"
 
     c "Yeah, and I think I’ll join the Art Unit too."
     c "How about you, Callista?"
 
-    show dummyJ wonder #show callista thinking
+    hide bisma
+    show callista thinking left #show callista thinking
 
     voice callistaVoiceScene5+"Scene 5_HJ_1_Final.mp3"
     j "I’m still not quite sure."
@@ -42,24 +50,26 @@ label scene_5:
     c "Well, I have to go to the bathroom now."
     c "You two should just visit other stands while waiting for me."
 
-    hide dummyC #hide lucky
+    hide lucky #hide lucky
     with dissolve #with dissolve
 
-    "*Lucky goes to the toilet*"
+    "{i}Lucky goes to the toilet{/i}"
+
+    show bisma normal right
 
     b "So, Callista, what stand do you wanna visit?"
 
     voice callistaVoiceScene5+"Scene 5_HJ_2_Final.mp3"
     j "I dunno. Let’s just start walking."
 
-    hide dummyJ #hide callista
-    hide dummyB #hide bisma
+    hide callista #hide callista
+    hide bisma #hide bisma
 
-    "*Bisma and Callista walk across the row of stands*"
+    "{i}Bisma and Callista walk across the row of stands{/i}"
 
-    show dummyJ smile at left #show callista normal at left
-    show dummyB neutral at right: #show bisma normal at right
-        xzoom -1
+    show callista focused left #show callista normal at left
+    show bisma normal right #show bisma normal at right
+    with dissolve
 
     b "I heard from Lucky that you sometimes play a keyboard on your streams. Is that correct?"
 
@@ -68,7 +78,7 @@ label scene_5:
 
     b "So why don’t you join the Band Unit with us?"
 
-    show dummyJ wonder #show callista thinking
+    show callista thinking left #show callista thinking
 
     voice callistaVoiceScene5+"Scene 5_HJ_4_Final.mp3"
     j "I’m still thinking about it."
@@ -76,30 +86,30 @@ label scene_5:
 
     b "I’m very sure you belong to the Band Unit."
 
-    show dummyB smile #show bisma happy
+    show bisma happy right #show bisma happy
 
     b "Lucky said that your keyboarding skills are amazing."
 
-    show dummyJ smile #show callista normal
+    show callista focused left #show callista normal
 
     j "Lucky sometimes praises people too much."
 
-    show dummyJ sad #show callista sad
+    show callista sad left #show callista sad
 
     j "My skills aren’t that great."
 
-    #show bisma energetic
+    show bisma energetic right #show bisma energetic
 
     b "C’mon, have more confidence in yourself."
     b "I’m sure you’re talented at playing the keyboard. you’ll be perfect for the Band unit."
 
-    show dummyJ smile #show callista smile (if exist)
+    show callista happy left #show callista smile (if exist)
 
     voice callistaVoiceScene5+"Scene 5_HJ_5_Final.mp3"
     j "Well, if you said so."
     j "Then I will join the Band Unit."
 
-    show dummyB neutral #show bisma normal
+    show bisma smirk right #show bisma normal
 
     voice bismaVoiceScene5
     b "BTW, Callista. Have you had a boyfriend before?"
@@ -115,12 +125,12 @@ label scene_5:
 
 label can_you_guess:
     $ Skor += 10
-    play music "audio/Musics/8-Sabuga_Night Run Away.mp3" volume 0.15
+    play music "audio/Musics/8-Sabuga_Night Run Away.mp3" volume 0.45
 
     voice callistaVoiceScene5+"Scene 5_HJ_6_Final.mp3"
     j "can you guess?"
 
-    show dummyB confused #show bisma thinking
+    show bisma thinking right #show bisma thinking
 
     b "Let me think."
     b "You have one?"
@@ -130,73 +140,83 @@ label can_you_guess:
     j "Nope, you’re wrong."
     j "I never even thought about having a boyfriend before."
 
-    show dummyB neutral #show bisma normal
+    show bisma normal right #show bisma normal
 
     b "Somehow, that’s not surprising."
 
-    show dummyJ upset #show callista angry
+    show callista mad left #show callista angry
 
     j "Are you joking with me?"
+
+    show callista mad left:
+        xzoom -1
+
     j "Well, I’m gonna pick up a few brochures from the Band Unit."
 
-    hide dummyB #hide bisma
-    with dissolve
+    hide bisma #hide bisma
+    with moveoutright
+    show callista mad center
+    with move
     #show calista normal
     pause 0.3
-    show dummyJ wonder at center
-    with move
+    show callista thinking center
     
-    j "*Why did he want to know whether I have a boyfriend or not?*"
+    j "{i}Why did he want to know whether I have a boyfriend or not?{/i}"
 
-    hide dummyJ #hide callista
+    hide callista #hide callista
 
-    "*Callista left to pick up a few brochures and come back to Bisma who’s talking with Lucky*"
-    "*After the Open House Unit finishes, they all then split up and went back to each of their home*"
+    "{i}Callista left to pick up a few brochures and come back to Bisma who’s talking with Lucky.{/i}"
+    "{i}After the Open House Unit finishes, they all then split up and went back to each of their home.{/i}"
 
     stop music
     return
 
 label why_would_you_ask_that:
     $ Skor -= 10
-    play music "audio/Musics/8-Sabuga_Night Run Away.mp3" volume 0.15
+    play music "audio/Musics/8-Sabuga_Night Run Away.mp3" volume 0.45
 
     voice callistaVoiceScene5+"Scene 5_HJ_7_Final.mp3"
     j "Why would you ask that?"
 
-    show dummyB confused #show bisma thinking
+    show bisma thinking right #show bisma thinking
 
     b "Umm…"
     b "I dunno. I just see that you and Lucky are quite close."
 
-    #show callista normal
+    show callista focused left #show callista normal
 
     j "It’s not quite appropriate to ask that on the first day of meeting someone."
     j "But no, I never had a boyfriend before."
     j "Lucky is just my best friend."
 
-    show dummyB neutral #show bisma normal
+    show bisma normal right #show bisma normal
 
     b "I see. You’re a cold type of person."
 
-    show dummyJ upset #show callista angry
+    show callista mad left #show callista angry
 
     j "I-It’s not like that."
     j "I’m just busy with my job and education."
+
+    show callista mad left:
+        xzoom -1
+
     j "Also, I’m gonna pick up a few brochures from the Band Unit."
 
-    hide dummyB #hide bisma
-    with dissolve
+    hide bisma #hide bisma
+    with moveoutright
+    show callista mad center
+    with move
     #show calista normal
     pause 0.3
-    show dummyJ wonder at center
-    with move
+    show callista thinking center
 
-    j "*Why did he want to know whether I have a boyfriend or not?*"
+    j "{i}Why did he want to know whether I have a boyfriend or not?{/i}"
 
-    hide dummyJ #hide callista
+    hide callista #hide callista
 
-    "*Callista left to pick up a few brochures and come back to Bisma who’s talking with Lucky*"
-    "*They all then split up and went back to each of their home*"
+    "{i}Callista left to pick up a few brochures and come back to Bisma who’s talking with Lucky.{/i}"
+    "{i}They all then split up and went back to each of their home.{/i}"
 
     stop music
     return

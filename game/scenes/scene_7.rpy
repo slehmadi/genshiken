@@ -1,5 +1,13 @@
 
 label scene_7:
+    scene black
+    with dissolve
+    "{i}The Next Day{/i}"
+    
+    scene bg 4
+    with dissolve
+
+    play music "audio/Musics/3-Taman_Dog and Pony Show.mp3" volume 0.45
     #show lucky happy
     c "Callista! Finally you came."
 

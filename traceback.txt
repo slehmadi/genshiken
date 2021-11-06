@@ -1,50 +1,34 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 132, in script call
-    call scene_1
-  File "game/scenes/scene_1.rpy", line 20, in script
-    j "It's been good."
-IOError: Couldn't find file 'audio/Dubs/J-H/Scene 1Scene 1_HJ_1_Final.mp3'.
+  File "game/script.rpy", line 169, in script call
+    call scene_5
+  File "game/scenes/scene_5.rpy", line 16, in script
+    show bisma normal center #show bisma normal
+Exception: Image 'bisma normal' does not accept attributes 'center'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 132, in script call
-    call scene_1
-  File "game/scenes/scene_1.rpy", line 20, in script
-    j "It's been good."
-  File "renpy/ast.py", line 716, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1417, in say
-    who(what, *args, **kwargs)
-  File "renpy/character.py", line 1223, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "renpy/character.py", line 875, in do_display
-    **display_args)
-  File "renpy/character.py", line 621, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3276, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3979, in interact_core
-    renpy.audio.audio.periodic()
-  File "renpy/audio/audio.py", line 1138, in periodic
-    raise_(exc[0], exc[1], exc[2])
-  File "renpy/audio/audio.py", line 1116, in periodic_thread_main
-    periodic_pass()
-  File "renpy/audio/audio.py", line 1058, in periodic_pass
-    c.periodic()
-  File "renpy/audio/audio.py", line 512, in periodic
-    topf = load(filename)
-  File "renpy/audio/audio.py", line 69, in load
-    rv = renpy.loader.load(fn)
-  File "renpy/loader.py", line 798, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'audio/Dubs/J-H/Scene 1Scene 1_HJ_1_Final.mp3'.
+  File "game/script.rpy", line 169, in script call
+    call scene_5
+  File "game/scenes/scene_5.rpy", line 16, in script
+    show bisma normal center #show bisma normal
+  File "renpy/ast.py", line 1192, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "renpy/ast.py", line 1162, in show_imspec
+    atl=atl)
+  File "renpy/exports.py", line 744, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "renpy/display/image.py", line 409, in find_target
+    self.target = target._duplicate(a)
+  File "renpy/display/transform.py", line 847, in _duplicate
+    args.extraneous()
+  File "renpy/display/core.py", line 271, in extraneous
+    " ".join(self.args),
+Exception: Image 'bisma normal' does not accept attributes 'center'.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 ACE S.U.S Battalion 1.0
-Fri Nov  5 18:57:44 2021
+Sat Nov  6 13:14:58 2021

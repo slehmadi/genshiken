@@ -2,13 +2,14 @@ define callistaVoiceScene3 = "audio/Dubs/J-H/Scene 3/"
 
 label scene_3:
     scene bg 3
+    with dissolve
     pause(1.0)
 
-    show dummyJ wonder#show callista normal at left
-    #with move
+    show callista focused center
+    with dissolve #with move
 
-    "*Callista checks her phone*"
-    hide dummyJ
+    "{i}Callista checks her phone{/i}"
+    hide callista
 
     #show dummyC happy at right: #show lucky happy at right
     #    xalign 0.9
@@ -91,11 +92,13 @@ label scene_3:
 
     "*Callista turns off her phone*"
 
-    show dummyJ wonder
-    j "*I guess tomorrow will be a big day for me. I’m finally able to go to university again.*"
-    j "*Am I ready to spend time normally again? To meet friends that I haven’t really known well?*"
-    j "*I’m glad I know Lucky, he always help me find new friends. Without him, I won’t even know Bisma.*"
-    j "*Hope tomorrow goes well.*"
+    show callista thinking center
+    with dissolve
+
+    j "{i}I guess tomorrow will be a big day for me. I’m finally able to go to university again.{/i}"
+    j "{i}Am I ready to spend time normally again? To meet friends that I haven’t really known well?{/i}"
+    j "{i}I’m glad I know Lucky, he always help me find new friends. Without him, I won’t even know Bisma.{/i}"
+    j "{i}Hope tomorrow goes well.{/i}"
 
     stop music
     return

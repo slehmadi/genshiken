@@ -45,86 +45,400 @@ image bg 9:
 # declare chara sprites
 # sebenernya asal file gak usah asal var-nya huruf kecil semua
 
-image dummyJ smile:
-    "Dummies/characters/dummyJ/dummyJ smile.png"
-    zoom 0.67
-image dummyJ wonder:
-    "Dummies/characters/dummyJ/dummyJ wonder.png"
-    zoom 0.67
-image dummyJ sad:
-    "Dummies/characters/dummyJ/dummyJ sad.png"
-    zoom 0.67
-image dummyJ upset:
-    "Dummies/characters/dummyJ/dummyJ upset.png"
-    zoom 0.67
+image callista blushing center:
+    "Chara/callista/callista blushing.png"
+    zoom 0.275
+    anchor(0.5, 0.85)
+image callista blushing left:
+    "Chara/callista/callista blushing.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.85)
+image callista blushing right:
+    "Chara/callista/callista blushing.png"
+    zoom 0.275
+    anchor(0.0, 0.85)
+image callista focused center:
+    "Chara/callista/callista focused.png"
+    zoom 0.275
+    anchor(0.5, 0.85)
+image callista focused left:
+    "Chara/callista/callista focused.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.85)
+image callista focused right:
+    "Chara/callista/callista focused.png"
+    zoom 0.275
+    anchor(0.0, 0.85)
+image callista happy center:
+    "Chara/callista/callista happy.png"
+    zoom 0.275
+    anchor(0.5, 0.85)
+image callista happy left:
+    "Chara/callista/callista happy.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.85)
+image callista happy right:
+    "Chara/callista/callista happy.png"
+    zoom 0.275
+    anchor(0.0, 0.85)
+image callista laugh center:
+    "Chara/callista/callista laugh.png"
+    zoom 0.275
+    anchor(0.5, 0.85)
+image callista laugh left:
+    "Chara/callista/callista laugh.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.85)
+image callista laugh right:
+    "Chara/callista/callista laugh.png"
+    zoom 0.275
+    anchor(0.0, 0.85)
+image callista mad center:
+    "Chara/callista/callista mad.png"
+    zoom 0.275
+    anchor(0.5, 0.85)
+image callista mad left:
+    "Chara/callista/callista mad.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.85)
+image callista mad right:
+    "Chara/callista/callista mad.png"
+    zoom 0.275
+    anchor(0.0, 0.85)
+image callista sad center:
+    "Chara/callista/callista sad.png"
+    zoom 0.275
+    anchor(0.5, 0.85)
+image callista sad left:
+    "Chara/callista/callista sad.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.85)
+image callista sad right:
+    "Chara/callista/callista sad.png"
+    zoom 0.275
+    anchor(0.0, 0.85)
+image callista thinking center:
+    "Chara/callista/callista thinking.png"
+    zoom 0.275
+    anchor(0.5, 0.85)
+image callista thinking left:
+    "Chara/callista/callista thinking.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.85)
+image callista thinking right:
+    "Chara/callista/callista thinking.png"
+    zoom 0.275
+    anchor(0.0, 0.85)
+image callista tired center:
+    "Chara/callista/callista tired.png"
+    zoom 0.275
+    anchor(0.5, 0.85)
+image callista tired left:
+    "Chara/callista/callista tired.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.85)
+image callista tired right:
+    "Chara/callista/callista tired.png"
+    zoom 0.275
+    anchor(0.0, 0.85)
 
-image dummyH neutral:
-    "Dummies/characters/dummyH/dummyH neutral.png"
-image dummyH happy:
-    "Dummies/characters/dummyH/dummyH happy.png"
-image dummyH frightened:
-    "Dummies/characters/dummyH/dummyH frightened.png"
-image dummyH terrified:
-    "Dummies/characters/dummyH/dummyH terrified.png"
-image dummyH mad:
-    "Dummies/characters/dummyH/dummyH mad.png"
-image dummyH sad:
-    "Dummies/characters/dummyH/dummyH sad.png"
+image hazu energetic center:
+    "Chara/hazu chan/hazu energetic.png"
+    zoom 0.275
+    anchor(0.5, 0.75)
+image hazu energetic left:
+    "Chara/hazu chan/hazu energetic.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.75)
+image hazu energetic right:
+    "Chara/hazu chan/hazu energetic.png"
+    zoom 0.275
+    anchor(0.0, 0.75)
+image hazu focused center:
+    "Chara/hazu chan/hazu focused.png"
+    zoom 0.275
+    anchor(0.5, 0.75)
+image hazu focused left:
+    "Chara/hazu chan/hazu focused.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.75)
+image hazu focused right:
+    "Chara/hazu chan/hazu focused.png"
+    zoom 0.275
+    anchor(0.0, 0.75)
+image hazu happy center:
+    "Chara/hazu chan/hazu happy.png"
+    zoom 0.275
+    anchor(0.5, 0.75)
+image hazu happy left:
+    "Chara/hazu chan/hazu happy.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.75)
+image hazu happy right:
+    "Chara/hazu chan/hazu happy.png"
+    zoom 0.275
+    anchor(0.0, 0.75)
+image hazu laugh center:
+    "Chara/hazu chan/hazu laugh.png"
+    zoom 0.275
+    anchor(0.5, 0.75)
+image hazu laugh left:
+    "Chara/hazu chan/hazu laugh.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.75)
+image hazu laugh right:
+    "Chara/hazu chan/hazu laugh.png"
+    zoom 0.275
+    anchor(0.0, 0.75)
+image hazu sad center:
+    "Chara/hazu chan/hazu sad.png"
+    zoom 0.275
+    anchor(0.5, 0.75)
+image hazu sad left:
+    "Chara/hazu chan/hazu sad.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.75)
+image hazu sad right:
+    "Chara/hazu chan/hazu sad.png"
+    zoom 0.275
+    anchor(0.0, 0.75)
+image hazu surprised center:
+    "Chara/hazu chan/hazu surprised.png"
+    zoom 0.275
+    anchor(0.5, 0.75)
+image hazu surprised left:
+    "Chara/hazu chan/hazu surprised.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.75)
+image hazu surprised right:
+    "Chara/hazu chan/hazu surprised.png"
+    zoom 0.275
+    anchor(0.0, 0.75)
 
-image dummyV neutral:
-    "Dummies/characters/dummyV/dummyV neutral.png"
-    zoom 0.65
-image dummyV happy:
-    "Dummies/characters/dummyV/dummyV happy.png"
-    zoom 0.65
-image dummyV surprised:
-    "Dummies/characters/dummyV/dummyV surprised.png"
-    zoom 0.65
-image dummyV angry:
-    "Dummies/characters/dummyV/dummyV angry.png"
-    zoom 0.65
-image dummyV sad:
-    "Dummies/characters/dummyV/dummyV sad.png"
-    zoom 0.65
+image kazuo confused center:
+    "Chara/kazuo/kazuo confused.png"
+    zoom 0.275
+    anchor(0.5, 0.9)
+image kazuo confused left:
+    "Chara/kazuo/kazuo confused.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.9)
+image kazuo confused right:
+    "Chara/kazuo/kazuo confused.png"
+    zoom 0.275
+    anchor(0.0, 0.9)
+image kazuo focused center:
+    "Chara/kazuo/kazuo focused.png"
+    zoom 0.275
+    anchor(0.5, 0.9)
+image kazuo focused left:
+    "Chara/kazuo/kazuo focused.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.9)
+image kazuo focused right:
+    "Chara/kazuo/kazuo focused.png"
+    zoom 0.275
+    anchor(0.0, 0.9)
+image kazuo surprised center:
+    "Chara/kazuo/kazuo surprised.png"
+    zoom 0.275
+    anchor(0.5, 0.9)
+image kazuo surprised left:
+    "Chara/kazuo/kazuo surprised.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.9)
+image kazuo surprised right:
+    "Chara/kazuo/kazuo surprised.png"
+    zoom 0.275
+    anchor(0.0, 0.9)
 
-image dummyB neutral:
-    "Dummies/characters/dummyB/Sprite Male Dark Hair Neu01.png"
-    zoom 0.6
-image dummyB smile:
-    "Dummies/characters/dummyB/Sprite Male Dark Hair Smi02.png"
-    zoom 0.6
-image dummyB confused:
-    "Dummies/characters/dummyB/Sprite Male Dark Hair Con01.png"
-    zoom 0.6
-image dummyB angry:
-    "Dummies/characters/dummyB/Sprite Male Dark Hair Ang01.png"
-    zoom 0.6
-image dummyB sad:
-    "Dummies/characters/dummyB/Sprite Male Dark Hair Sad01.png"
-    zoom 0.6
-image dummyB apologize:
-    "Dummies/characters/dummyB/Sprite Male Dark Hair Apo01.png"
-    zoom 0.6
+image darren normal:
+    "Chara/darren/DARREN idle.png"
+    zoom 0.275
+image darren confused:
+    "Chara/darren/DARREN confused.png"
+    zoom 0.275
+image darren serious:
+    "Chara/darren/DARREN serious.png"
+    zoom 0.275
+image darren surprised:
+    "Chara/darren/DARREN surprised.png"
+    zoom 0.275
 
-image dummyC normal:
-    "Dummies/characters/dummyC/taishiro outing normal.png"
-    zoom 0.65
-image dummyC happy:
-    "Dummies/characters/dummyC/taishiro outing happy.png"
-    zoom 0.65
-image dummyC surprised:
-    "Dummies/characters/dummyC/taishiro outing surprised.png"
-    zoom 0.65
-image dummyC angry:
-    "Dummies/characters/dummyC/taishiro outing angry.png"
-    zoom 0.65
-image dummyC sad:
-    "Dummies/characters/dummyC/taishiro outing sad.png"
-    zoom 0.65
+image bisma normal center:
+    "Chara/bisma/BISMA6.png"
+    zoom 0.275
+    anchor(0.5, 0.9)
+image bisma normal left:
+    "Chara/bisma/BISMA6.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.9)
+image bisma normal right:
+    "Chara/bisma/BISMA6.png"
+    zoom 0.275
+    anchor(0.0, 0.9)
+image bisma happy center:
+    "Chara/bisma/BISMA1.png"
+    zoom 0.275
+    anchor(0.5, 0.9)
+image bisma happy left:
+    "Chara/bisma/BISMA1.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.9)
+image bisma happy right:
+    "Chara/bisma/BISMA1.png"
+    zoom 0.275
+    anchor(0.0, 0.9)
+image bisma energetic center:
+    "Chara/bisma/BISMA3.png"
+    zoom 0.275
+    anchor(0.5, 0.9)
+image bisma energetic left:
+    "Chara/bisma/BISMA3.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.9)
+image bisma energetic right:
+    "Chara/bisma/BISMA3.png"
+    zoom 0.275
+    anchor(0.0, 0.9)
+image bisma thinking center:
+    "Chara/bisma/BISMA2.png"
+    zoom 0.275
+    anchor(0.5, 0.9)
+image bisma thinking left:
+    "Chara/bisma/BISMA2.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.9)
+image bisma thinking right:
+    "Chara/bisma/BISMA2.png"
+    zoom 0.275
+    anchor(0.0, 0.9)
+image bisma sad center:
+    "Chara/bisma/BISMA4.png"
+    zoom 0.275
+    anchor(0.5, 0.9)
+image bisma sad left:
+    "Chara/bisma/BISMA4.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.9)
+image bisma sad right:
+    "Chara/bisma/BISMA4.png"
+    zoom 0.275
+    anchor(0.0, 0.9)
+image bisma smirk center:
+    "Chara/bisma/BISMA5.png"
+    zoom 0.275
+    anchor(0.5, 0.9)
+image bisma smirk left:
+    "Chara/bisma/BISMA5.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.9)
+image bisma smirk right:
+    "Chara/bisma/BISMA5.png"
+    zoom 0.275
+    anchor(1.0, 0.9)
 
-image callista normal:
-    "Chara/irl_hazu.png"
-    zoom 0.49
+image lucky normal center:
+    "Chara/lucky/1LUCKY.png"
+    zoom 0.275
+    anchor(0.5, 0.9)
+image lucky normal left:
+    "Chara/lucky/1LUCKY.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.9)
+image lucky normal right:
+    "Chara/lucky/1LUCKY.png"
+    zoom 0.275
+    anchor(0.0, 0.9)
+image lucky happy center:
+    "Chara/lucky/2LUCKY.png"
+    zoom 0.275
+    anchor(0.5, 0.9)
+image lucky happy left:
+    "Chara/lucky/2LUCKY.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.9)
+image lucky happy right:
+    "Chara/lucky/2LUCKY.png"
+    zoom 0.275
+    anchor(0.0, 0.9)
+image lucky blushing center:
+    "Chara/lucky/3LUCKY.png"
+    zoom 0.275
+    anchor(0.5, 0.9)
+image lucky blushing left:
+    "Chara/lucky/3LUCKY.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.9)
+image lucky blushing right:
+    "Chara/lucky/3LUCKY.png"
+    zoom 0.275
+    anchor(0.0, 0.9)
+image lucky worried center:
+    "Chara/lucky/4LUCKY.png"
+    zoom 0.275
+    anchor(0.5, 0.9)
+image lucky worried left:
+    "Chara/lucky/4LUCKY.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.9)
+image lucky worried right:
+    "Chara/lucky/4LUCKY.png"
+    zoom 0.275
+    anchor(0.0, 0.9)
+image lucky angry center:
+    "Chara/lucky/5LUCKY.png"
+    zoom 0.275
+    anchor(0.5, 0.9)
+image lucky angry left:
+    "Chara/lucky/5LUCKY.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.9)
+image lucky angry right:
+    "Chara/lucky/5LUCKY.png"
+    zoom 0.275
+    anchor(0.0, 0.9)
+image lucky surprised center:
+    "Chara/lucky/6LUCKY.png"
+    zoom 0.275
+    anchor(0.5, 0.9)
+image lucky surprised left:
+    "Chara/lucky/6LUCKY.png"
+    zoom 0.275
+    xzoom -1
+    anchor(1.0, 0.9)
+image lucky surprised right:
+    "Chara/lucky/6LUCKY.png"
+    zoom 0.275
+    anchor(0.0, 0.9)
 
 # The game starts here.
 label start:

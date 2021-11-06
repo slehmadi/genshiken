@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scene_1.rpy", line 58: expected end of line
-    voice voice callistaVoiceScene1+"Scene 1_HJ_6_Final.mp3"
-                ^
+File "game/script.rpy", line 115: expected '=' not found.
+    image bisma normal at right:
+                       ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Fri Nov  5 18:55:02 2021
+Sat Nov  6 13:25:28 2021

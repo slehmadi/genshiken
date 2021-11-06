@@ -2,19 +2,15 @@ define interviewerVoice = "audio/Dubs/Interviewer/"
 define callistaVoiceScene1 = "audio/Dubs/J-H/Scene 1/"
 
 label scene_1:
-    scene black #scene bg interviewRoom
-
-    "VTuber agency is not rare nowadays"
-    "In a room, sit two people facing each other, a girl and a man with suit."
-    "..."
-
     scene bg 1
-    play music "audio/Musics/1-Kelas_Slow Steps.mp3" volume 0.1
+    with dissolve
+    play music "audio/Musics/1-Kelas_Slow Steps.mp3" volume 0.45
 
     voice interviewerVoice+"Scene 1_I_1_Final.mp3"
     i "Welcome, Callista to Nico Show! How's your day?"
 
-    show callista normal #show callista happy
+    show callista happy center
+    with dissolve
 
     voice callistaVoiceScene1+"Scene 1_HJ_1_Final.mp3"
     j "It's been good."
@@ -22,7 +18,7 @@ label scene_1:
     voice interviewerVoice+"Scene 1_I_2_Final.mp3"
     i "Great! Why don't you introduce yourself to the audience?"
 
-    #show dummyJ wonder #show callista normal
+    show callista focused center
 
     voice callistaVoiceScene1+"Scene 1_HJ_2_Final.mp3"
     j "Hello! I’m Callista, a VTuber known as Hazu-Chan and a college student at BIT."
@@ -42,7 +38,7 @@ label scene_1:
     voice interviewerVoice+"Scene 1_I_5_Final.mp3"
     i "Wow, smart and talented. You’re one gifted person. So, may we know why you pursue a career as a VTuber?"
 
-    #show dummyJ smile #show callista happy
+    show callista happy center
 
     voice "<to 9.9>"+callistaVoiceScene1+"Scene 1_HJ_5_Final.mp3"
     j "I loved to watch many VTuber. I often watch their streams in my free time. I’m inspired to be like one of them and stream to an audience."
@@ -53,7 +49,7 @@ label scene_1:
     voice interviewerVoice+"Scene 1_I_6_Final.mp3"
     i "Such a wonderful intention. May we know who your inspiration is?"
 
-    #show dummyJ wonder #show callista normal
+    show callista focused center
 
     voice callistaVoiceScene1+"Scene 1_HJ_6_Final.mp3"
     j "It’s actually another VTuber around my age. His VTuber name is Kazuo and I’ll love to stream with him some day."
@@ -61,7 +57,7 @@ label scene_1:
     voice interviewerVoice+"Scene 1_I_7_Final.mp3"
     i "Interesting. I hope you will fulfil your dreams. So, moving on. Under the current situation, how does the pandemic affect your work and study?"
 
-    #show dummyJ sad #show callista sad
+    show callista sad center
 
     voice "<to 4>"+callistaVoiceScene1+"Scene 1_HJ_7_Final.mp3"
     j "The pandemic has impacted my life a lot."
@@ -69,12 +65,12 @@ label scene_1:
     voice "<from 4.5 to 17>"+callistaVoiceScene1+"Scene 1_HJ_7_Final.mp3"
     j "I have a harder time studying than I normally do. At college, it’s hard for me to find a new friend. I didn’t have many chances of talking to any of my classmates outside of class."
 
-    #show dummyJ smile #show callista happy
+    show callista happy center
 
     voice "<from 18 to 27.5>"+callistaVoiceScene1+"Scene 1_HJ_7_Final.mp3"
     j "I’m glad I have a best friend, Lucky that’s always by my side. Also, he’s the one who made my VTuber model. You all should check him out."
 
-    #show dummyJ wonder #show callista normal
+    show callista focused center
     
     voice "<from 27.5 to 32.5>"+callistaVoiceScene1+"Scene 1_HJ_7_Final.mp3"
     j "Despite all of that, I’m glad of the chances that appear because of the pandemic."
