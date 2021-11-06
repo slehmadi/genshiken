@@ -1,26 +1,36 @@
+define callistaVoiceScene17B = "audio/Dubs/J-H/Scene 17/"
+define kazuoVoiceScene17B = "audio/Dubs/V-W/Scene 17/"
 
 label scene_17B:
-    scene bg streaming
+    scene bg 2
 
-    #show kazuo normal
+    show kazuo focused center
+    with dissolve
 
+    voice kazuoVoiceScene17B+"Scene 17_V_1_Final.mp3"
     v "Are you ready yet, Callista?"
 
-    #hide kazuo
-    #show callista normal
+    hide kazuo
+    show callista focused center
+    with dissolve
 
     j "Yeah, just let me use the VTuber model first."
 
-    #hide callista
+    hide callista
+    with dissolve
     pause(1.0)
-    #show hazu normal
+    show hazu focused left 
+    with dissolve
 
     h "Okay, now it’s on."
     h "We should start now."
 
     #show hazu normal at left
     #show kazuo normal at right
+    show kazuo focused right
+    with dissolve
 
+    voice kazuoVoiceScene17B+"Scene 17_V_2_Final.mp3"
     v "Are you sure?"
     v "You aren’t focused."
 
@@ -30,29 +40,37 @@ label scene_17B:
 
     h "It’s okay. We can talk about it after the stream."
 
+    voice kazuoVoiceScene17B+"Scene 17_V_3_Final.mp3"
     v "Okay then."
 
-    #hide kazuo
-    #hide hazu
+    hide kazuo
+    hide hazu
+    with dissolve
 
-    "*Kazuo and Hazu-Chan streams together again*"
-    "*They have a great time, but it’s getting late and Hazu-Chan aren’t focused at the game*"
+    "{i}Kazuo and Hazu-Chan streams together again.{/i}"
+    "{i}They have a great time, but it’s getting late and Hazu-Chan aren’t focused at the game.{/i}"
 
-    #show hazu tired at left
-    #show kazuo normal at right
+    show hazu focused left #show hazu tired at left
+    show kazuo focused right #show kazuo normal at right
 
     h "I’m getting tired, maybe we should end the stream now."
 
+    voice kazuoVoiceScene17B+"Scene 17_V_4_Final.mp3"
     v "Yeah, good bye everyone."
     v "Thank you for coming to our stream."
 
-    #show hazu happy
+    show hazu happy left
 
     h "Bye everyone!"
 
-    scene bg discord
+    hide hazu
+    hide kazuo
+    with dissolve
 
-    #show darren serious
+    "{i}The Stream End...{/i}"
+
+    show darren serious right
+    show callista tired left 
 
     w "Now that stream ends. Do you want to talk about what happened?"
 
@@ -61,11 +79,11 @@ label scene_17B:
 
     j "Yeah. Earlier today, a thief stole my bag."
 
-    #show darren normal
+    show darren normal right
 
     w "Did you get it back?"
 
-    #show callista normal
+    show callista focused left 
 
     j "Yes, Bisma helped me."
     j "I’m glad that the thief didn’t steal anything else."
@@ -96,17 +114,18 @@ label scene_17B:
 label scene_17B_choice1:
     $ Skor += 10
     
+    voice callistaVoiceScene17B+"Scene 17_HJ_1_Final.mp3"
     j "Oh…, that’s great."
 
-    #show darren thinking
+    show darren confused right #show darren thinking
 
     w "You don’t sound very excited. Is there something wrong?"
 
-    #show callista tired
+    show callista tired left #show callista tired
 
     j "No, maybe it’s just me who’s tired."
 
-    #show darren normal
+    show darren normal right #show darren normal
 
     w "Oh, okay."
     w "You should sleep now then."
@@ -116,19 +135,22 @@ label scene_17B_choice1:
     w "Oh yeah, one more thing."
     w "Prepare for the unexpected."
 
-    #show callista normal
+    show callista focused left #show callista normal
 
     j "What does that me—"
 
-    #hide darren
-    #play sound "discord.mp3"
+    hide darren #hide darren
+    with dissolve
+    play sound "audio/Sound Effects/sfx4.mp3"
+    pause .2
 
     return
 
 label scene_17B_choice2:
     $ Skor -= 10
-    #show callista surprised
+    show callista happy left 
 
+    voice callistaVoiceScene17B+"Scene 17_HJ_3_Final.mp3"
     j "Wait Really?"
 
     #show callista happy
@@ -144,9 +166,9 @@ label scene_17B_choice2:
 
     j "Okay then, keep your secrets."
 
-    #show callista tired
+    show callista tired left 
 
-    j "*yawn*"
+    j "{i}yawn.{/i}"
 
     w "I think you should rest now."
     w "You looked very tired."
@@ -158,7 +180,9 @@ label scene_17B_choice2:
 
     j "What does that me—"
 
-    #hide darren
-    #play sound "discord.mp3"
+    hide darren
+    with dissolve
+    play sound "audio/Sound Effects/sfx4.mp3"
+    pause .2
 
     return

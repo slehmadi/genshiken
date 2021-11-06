@@ -1,24 +1,35 @@
 
 label scene_END1_V:
-    scene bg amusementpark
+    scene bg 8
+    with dissolve
 
-    "*Callista is standing in the front of the amusement park*"
+    play music "audio/Musics/4-Amusement Park_How It Began.mp3" volume 0.45
 
-    #show callista normal
+    "{i}Callista is standing in the front of the amusement park.{/i}"
+
+    show callista focused center
+    with dissolve
 
     j "Where’s Darren? He’s supposed to be here now."
 
-    #hide callista
+    hide callista
+    with dissolve
 
-    "*Callista waited for another hour, but Darren never came*"
+    "{i}Callista waited for another hour, but Darren never came.{/i}"
 
-    #show bisma normal
+    show callista sad left
+    with dissolve
+    
+    j "Maybe I should just leave."
+
+    show bisma normal right #show bisma normal
+    with moveinright
 
     b "Hi there, Callista."
     b "What are you doing here?"
 
     #hide bisma
-    #show callista surprised
+    show callista focused left 
 
     j "You scared me, Bisma"
 
@@ -35,15 +46,15 @@ label scene_END1_V:
     b "Well, whoever that guy is, he’s an asshole for leaving you alone."
     b "Instead of waiting here, why don’t you come with me?"
 
-    j "*I don’t think Darren is coming.*"
-    j "*I guess there’s nothing wrong with going with Bisma.*"
+    j "{i}I don’t think Darren is coming.{/i}"
+    j "{i}I guess there’s nothing wrong with going with Bisma.{/i}"
     j "But do you still have an extra ticket?"
 
-    #show bisma happy
+    show bisma happy right 
 
     b "Of course. I kept it just in case you suddenly want to go with me, just like now. "
 
-    #show bisma energetic
+    show bisma energetic right 
 
     b "Let’s go inside then."
 
@@ -51,14 +62,17 @@ label scene_END1_V:
 
     j "Let’s go."
 
-    #hide callista
-    #hide bisma
+    hide callista
+    hide bisma
+    with dissolve
 
-    "*Bisma and Callista spends their entire day together in the amusement park*"
-    "*They ride the roller coaster together and scream out their lungs*"
-    "*But the sun must set and it’s the time for them to leave*"
+    "{i}Bisma and Callista spends their entire day together in the amusement park.{/i}"
+    "{i}They ride the roller coaster together and scream out their lungs.{/i}"
+    "{i}But the sun must set and it’s the time for them to leave.{/i}"
 
-    #show callista happy
+    show callista happy left 
+    show bisma happy right 
+    with dissolve
 
     j "Thank you so much for today, Bisma."
     j "I really enjoyed today."
@@ -69,11 +83,11 @@ label scene_END1_V:
     b "It has been such a great time spending time with you."
     b "Also, I wanted you to come to a special place next week."
 
-    #show callista normal
+    show callista focused left 
 
     j "Where is it?"
 
-    #show bisma normal
+    #show bisma normal right 
 
     b "It’s a secret. I will bring you there when the time comes."
     b "I know about that place because of someone."
@@ -84,34 +98,41 @@ label scene_END1_V:
 
     b "Good bye for now too, Callista."
 
-    #hide bisma
-    #hide callista
+    hide bisma
+    hide callista
+    with dissolve
 
-    "*Bisma and Callista went to their own home*"
+    "{i}Bisma and Callista went to their own home.{/i}"
 
-    #show callista normal
+    show callista focused center
+    with dissolve 
 
-    j "*I still don’t see Darren anywhere today. Maybe he really did forget about me.*"
+    j "{i}I still don’t see Darren anywhere today. Maybe he really did forget about me.{/i}"
 
     scene black
+    with dissolve
 
-    "-The Next Day-"
+    "{i}The Next Day.{/i}"
 
-    scene bg streaming
+    scene 7
+    with dissolve
 
-    #show callista normal
+    show callista focused center
+    with dissolve
 
     j "Why is Darren not answering any of my calls or texts?"
     j "Where did he go?"
     j "I was supposed to collab with him today."
-    j "*Is he angry at me for not going to the amusement park with him*"
+    j "{i}Is he angry at me for not going to the amusement park with him.{/i}"
     j "Well, if he doesn't want to collab with me today, maybe I could just play music with Bisma."
 
-    #hide callista
+    hide callista
+    with dissolve
 
-    "*Callista calls Bisma*"
+    "{i}Callista calls Bisma.{/i}"
 
     #show bisma normal
+    play music "audio/Musics/2-Kamar_Easy Feeling.mp3" volume 0.45
 
     b "Hey, Callista. Why are you calling me at this time?"
 
@@ -126,55 +147,63 @@ label scene_END1_V:
 
     #hide callista
     #hide bisma
+    scene bg 2
+    with dissolve
 
-    "*Callista introduces Bisma to her audience and starts playing music together*"
-    "*Then they talk after the streams end*"
+    "{i}Callista introduces Bisma to her audience and starts playing music together.{/i}"
+    "{i}Then they talk after the streams end.{/i}"
 
-    scene bg room
-
-    #show callista normal
+    show callista focused left
+    show bisma normal right
+    with dissolve
 
     j "So you’re aren’t telling me where we’re gonna go next weekend?"
-
-    #show callista normal at left
-    #show bisma normal at right
 
     b "Not yet."
     b "Well, it’s already night and you should rest."
     b "I could see you using all of your energy playing music today."
-    
+
     j "Yeah, maybe I was too excited."
     j "Well, see you soon then."
     j "Bye, Bisma."
 
     b "Bye, Callista."
 
-    scene bg bedroom
+    stop music
+    scene bg 3
+    with dissolve
 
-    "*Callista sit on her bed and checks her phone*"
+    "{i}Callista sit on her bed and checks her phone.{/i}"
 
-    #show callista normal
+    show callista focused center 
+    with dissolve
 
     j "Wait, that can’t be."
     j "Kazuo is streaming right now."
     j "Then why did he ignore my message?"
-    j "*Is it my fault?*"
-    j "*No, remember what Lucky said.*"
-    j "*The past is gone, I should just focus on the future.*"
+    j "{i}Is it my fault?{/i}"
+    j "{i}No, remember what Lucky said.{/i}"
+    j "{i}The past is gone, I should just focus on the future.{/i}"
     j "This is just the end of a path, a new chance will come to me."
     j "I should just move on and let Kazuo do his own thing."
     j "Not everything could stay the same forever."
 
     scene black
+    with dissolve
 
-    "-The Next Weekend-"
+    "{i}The Next Weekend.{/i}"
 
-    scene bg beautifulplace
+    scene bg 9
+    with dissolve
 
-    "*Bisma brings Callista to a place near a cliff with a wonderful view of the sea*"
-    "*they sit on a bench facing to the sea*"
+    "{i}Bisma brings Callista to a place near a cliff with a wonderful view of the sea.{/i}"
+    "{i}they sit on a bench facing to the sea.{/i}"
 
-    #show callista normal
+    play music "audio/Musics/5-Tempat Indah_Memories of Love.mp3" volume 0.45
+
+    show callista focused left 
+    show bisma normal right 
+    with dissolve
 
     j "This place is really beautiful."
     j "Why do you want to bring me here?"
@@ -188,40 +217,44 @@ label scene_END1_V:
 
     b "Do you want to go on a date with me?"
 
-    #show callista surprised
+    show callista thinking left
 
     j "…"
     pause(1.0)
 
-    #show callista happy
+    show callista happy left 
 
     j "Of course, after everything you’ve done."
 
-    #show bisma happy
+    show bisma happy right 
 
     b "I’m so happy, I’m out of words."
 
-    #hide callista
-    #hide bisma
+    hide callista
+    hide bisma
+    with dissolve
 
-    "*They both keep smiling to each other, but then Callista’s smile fade away*"
+    "{i}They both keep smiling to each other, but then Callista’s smile fade away.{/i}"
 
-    #show bisma normal at right
-    #show callista normal at left
+    show callista focused left
+    show bisma normal right
+    with dissolve
 
-    b "Hay, Callista, is there something wrong?"
+    b "Hey, Callista, is there something wrong?"
 
     j "There’s nothing wrong."
 
     b "Then why do you look worried all of a sudden?"
 
-    #show callista sad
+    show callista sad left 
 
+    voice "audio/Dubs/J-H/Bad ending/Bad Ending_HJ_Final.mp3"
     j "I...I don’t think I made the right choice…"
     j "…."
 
     scene black
 
-    "{b}-The End-{/b}"
+    "{i}The End..?{/i}"
 
+    stop music
     return

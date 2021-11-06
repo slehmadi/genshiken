@@ -1,43 +1,55 @@
+define callistaVoiceScene17A = "audio/Dubs/J-H/Scene 17/"
+define kazuoVoiceScene17A = "audio/Dubs/V-W/Scene 17/"
 
 label scene_17A:
-    scene bg straming
+    scene bg 2
 
-    #show kazuo normal
+    show kazuo focused center
+    with dissolve
 
+    voice kazuoVoiceScene17A+"Scene 17_V_1_Final.mp3"
     v "Are you ready yet, Callista?"
 
-    #hide kazuo
-    #show callista normal
+    hide kazuo
+    show callista focused center
+    with dissolve
 
     j "Yeah, just let me use the VTuber model first."
 
-    #hide callista
+    hide callista
+    with dissolve
     pause(1.0)
-    #show hazu normal
+    show hazu focused left 
+    with dissolve
 
     h "Okay, now it’s on."
     h "We should start now."
 
     #show hazu normal at left
     #show kazuo normal at right
+    show kazuo focused right
+    with dissolve
 
+    voice kazuoVoiceScene17A+"Scene 17_V_2_Final.mp3"
     v "Are you sure?"
     v "You aren’t focused."
 
     h "I’m very sure. Just start the stream already."
 
+    voice kazuoVoiceScene17A+"Scene 17_V_3_Final.mp3"
     v "Okay then."
 
-    #hide kazuo
-    #hide hazu
+    hide kazuo
+    hide hazu
+    with dissolve
 
-    "*Kazuo and Hazu-Chan streams together again, but something is off*"
-    "*Hazu-Chan isn’t focused at the game and Kazuo seems down*"
-    "*The chat started to notices it, then Hazu-Chan decided to ends her stream earlier*"
+    "{i}Kazuo and Hazu-Chan streams together again, but something is off.{/i}"
+    "{i}Hazu-Chan isn’t focused at the game and Kazuo seems down.{/i}"
+    "{i}The chat started to notices it, then Hazu-Chan decided to ends her stream earlier.{/i}"
 
-    scene bg discord
-
-    #show callista normal
+    show callista focused left
+    show kazuo focused right 
+    with dissolve 
 
     j "Kazuo, you aren’t as funny to your audience today."
     j "Is there something wrong?"
@@ -48,12 +60,13 @@ label scene_17A:
     v "You too aren’t focused on the game."
     v "What’s happening?"
 
-    #show callista tired
+    show callista tired left #show callista tired
 
     j "It’s probably because it's already late and I’m tired."
 
     #show kazuo tired
 
+    voice kazuoVoiceScene17A+"Scene 17_V_4_Final.mp3"
     v "Yeah, I guess you’re right"
     v "I’m tired too."
 
@@ -61,7 +74,7 @@ label scene_17A:
 
     v "Just call me Darren."
 
-    #show callista normal
+    show callista focused left #show callista normal
 
     j "Wait, your name is Darren?"
 
@@ -78,12 +91,12 @@ label scene_17A:
 
     v "I have a big news that I wanna tell you."
 
-    #show callista thinking
+    show callista thinking left #show callista thinking
 
     j "And it is?"
 
-    v "I’m coming to your town next week."
-    v "What do you think?"
+    voice kazuoVoiceScene17A+"Scene 17_V_5_Final.mp3"
+    v "I’m coming to your town next week. What do you think?"
 
     menu:
         "Oh...":
@@ -96,13 +109,14 @@ label scene_17A:
 label scene_17A_choice1:
     $ Skor += 10
 
-    #show callista normal
+    show callista focused left 
 
+    voice callistaVoiceScene17A+"Scene 17_HJ_1_Final.mp3"
     j "Oh…, that’s great."
 
     v "You aren’t happy?"
 
-    #show callista tired
+    show callista tired left 
 
     j "No, no. I’m very happy."
     j "Finally I’m able to meet you after many collabs we’ve been through."
@@ -123,20 +137,26 @@ label scene_17A_choice1:
     v "I’m going to leave now so you can rest."
     v "Bye."
 
+    hide callista
+    hide kazuo
+    with dissolve
+
+    play sound "audio/Sound Effects/sfx4.mp3"
     return
 
 label scene_17A_choice2:
     $ Skor -= 10
 
-    #show callista happy
+    show callista happy left 
 
+    voice callistaVoiceScene17A+"Scene 17_HJ_2_Final.mp3"
     j "That’s such great news."
 
     v "It’s good right."
 
     j "Finally I’m able to meet you in real life."
 
-    #show callista normal
+    show callista focused left 
 
     j "But how am I gonna know how you look?"
 
@@ -150,7 +170,9 @@ label scene_17A_choice2:
 
     j "What does that me—"
 
-    #hide kazuo
-    #play sound "discord.mp3"
+    hide kazuo
+    with dissolve
+    play sound "audio/Sound Effects/sfx4.mp3"
+    pause .2
 
     return
