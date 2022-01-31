@@ -2,9 +2,9 @@
 
 ## This is only for testing
 
-Ishlah Muhammadi
+1. Ishlah Muhammadi
  - Juara dalam mengecewakan orang tua <br>
 \
 \
-Ahmad Madi
+2. Ahmad Madi
  - Juara dalam menjadi sampah masyarakat
