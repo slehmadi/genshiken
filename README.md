@@ -3,7 +3,7 @@
 ## This is only for testing
 
 Ishlah Muhammadi
- - Juara dalam mengecewakan orang tua
+ - Juara dalam mengecewakan orang tua.
 \
 \
 Ahmad Madi
