@@ -162,7 +162,7 @@ label go_home_kazuo:
 
     "{i}Bisma left for the Art Convention Building.{/i}"
 
-    show lucky normal right #show lucky normal at right
+    show lucky focused right #show lucky normal at right
 
     c "Why did you refuse his offer?"
 
@@ -187,7 +187,7 @@ label go_home_kazuo:
 
     "{i}Lucky left Callista alone in the university’s park{/i}"
 
-    show callista normal center #show callista normal at center
+    show callista focused center #show callista normal at center
     with move
 
     j "Guess I should contact Kazuo that I will collab with him again."

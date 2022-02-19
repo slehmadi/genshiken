@@ -52,7 +52,7 @@ label scene_8B:
     "{i}Callista uses her VTuber model.{/i}"
 
     show hazu happy left #show hazu happy at left
-    show kazuo focused #show kazuo normal at right
+    show kazuo focused right #show kazuo normal at right
     with dissolve
 
     h "You’re right. Hope this stream went well."

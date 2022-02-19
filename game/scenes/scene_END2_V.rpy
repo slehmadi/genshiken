@@ -42,8 +42,8 @@ label scene_END2_V:
     "{i}They ride so many attraction and have lots of fun.{/i}"
     "{i}But the sun must set and it’s the time for them to leave.{/i}"
 
-    show darren normal left 
-    show callista focused right 
+    show darren normal right  
+    show callista focused left 
     with dissolve
 
     w "It’s been such a wonderful day to spend time with you."

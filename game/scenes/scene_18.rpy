@@ -2,7 +2,7 @@ define callistaVoiceScene18 = "audio/Dubs/J-H/Scene 18/"
 define luckyVoiceScene18 = "audio/Dubs/C/Scene_18_C.mp3"
 
 label scene_18:
-    scene 3
+    scene bg 3
     with dissolve
 
     "{i}Callista calls Lucky again.{/i}"

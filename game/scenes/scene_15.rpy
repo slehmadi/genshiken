@@ -47,18 +47,18 @@ label scene_15:
     "{i}The thief and Bisma are gone for a long time, then Bisma shows up.{/i}"
     "{i}Callista runs to him.{/i}"
 
-    show bisma normal right #show callista happy
-    with moveinright
-    show callista happy center:
-        xzoom -1
+    show bisma normal left #show callista happy
     with moveinleft
+    show callista happy center
+    with moveinright
 
     j "Bisma! You got my bag back."
     j "Did you catch the thief?"
 
     #show callista happy at left
     #show bisma normal at right
-    show callista happy left 
+    show callista happy right
+    with move 
 
     b "No, he got away."
     b "Hey, at least I managed to save your bag, right?"
@@ -70,12 +70,12 @@ label scene_15:
 
     j "After your help, of course I would."
 
-    show bisma happy right #show bisma happy
+    show bisma happy left  #show bisma happy
 
     b "Great then."
     b "So, are we still going or are you just gonna stand here?"
 
-    show callista focused left #show callista normal
+    show callista focused right  #show callista normal
 
     j "Oh right. Yeah, let's go."
 
